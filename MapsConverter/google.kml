@@ -1,0 +1,2388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Стамбул + Кападокия + Бююкада остров</name>
+    <description/>
+    <Style id="icon-1502-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-757575-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-757575-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-757575">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-757575-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-757575-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-757575-nodesc-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-757575-nodesc-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-757575-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-757575-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-757575-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Достопримечательности</name>
+      <Placemark>
+        <name>Голубая мечеть Sultan Ahmet</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0t9up5ct944iaaf9g83tdi9kc4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G1Qz7wZaDYtGm9BLbHITwJWP9WZi-XaoBkERv5kgYdt22yodRTh544OoSJ7cfolyrgVDhAzRuhI-GCw1SjFeLCIpdwDd7O1y3jDpqoBW9BFQ6_-1Wpj3T1e9U5VBurYc3lkfMH8_ly9b8MJCChd3vECFTMAt7p5hQqEAIgiTlwPsi4N5EjjCmYd1Tqt1GN-xrW?session=0&fife" height="200" width="auto" /><br><br>женщинам можно, платок выдают, закрытую одежду надеть, фотографировать можно (но не тех, кто молится)<br><br>самая крупная в городе, ты точно видел ее на любой открытке из Турции. Голубой ее называют из-за белых и голубых изразцов ручной работы, которые можно оценить, пробравшись внутрь. К слову, сделать это можно бесплатно, главное – не попасть на время молитвы (расписание указано рядом). Войдя в мечеть, пройди как можно ближе к центру и любуйся куполами, изразцами, надписями и окнами, пока не закружится голова.]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0t9up5ct944iaaf9g83tdi9kc4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G1Qz7wZaDYtGm9BLbHITwJWP9WZi-XaoBkERv5kgYdt22yodRTh544OoSJ7cfolyrgVDhAzRuhI-GCw1SjFeLCIpdwDd7O1y3jDpqoBW9BFQ6_-1Wpj3T1e9U5VBurYc3lkfMH8_ly9b8MJCChd3vECFTMAt7p5hQqEAIgiTlwPsi4N5EjjCmYd1Tqt1GN-xrW?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9768138,41.0054096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Цистерна Базилика</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ij39hgf4kgk3um4qg33lvg2164/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EMFPdPK_eoDOb5_LLQbgQQzjLSFIb2ivCo6n4lcZQ-G70xgCtT6dqrnMSPGZGHlqYJYd0Xf-xZMpLKWPY8Fxj33SE20jzF5SEgg3Muxox6cxNkO84FhdjkufGItC_lhSbBjwf91SA_QdzmmsJPv8lJDKiFq_KdY4eEzAvAklONjnMm7amG6oMYeJOF6GaLVyQ?session=0&fife" height="200" width="auto" /><br><br>с 9 до 22 (или 19?), лучше посещать утром или вечером, 300 лир, оплата наличкой<br><br>Цистерна Базилика (Yerebatan C 13, Sultanahmet) использовалась в качестве хранилища воды для жителей Большого дворца в византийские времена и дворца Топкапы во времена Османской империи. Выглядит место совершенно мистически, учитывая, что оно находится под землей – рассеянный свет, мощные колонны, методичное бряцанье капель и даже парочка Медуз Горгон, которым не страшно посмотреть в глаза. Одно из немногих туристических мест, куда даже стамбульцы возвращаются по несколько раз. Вход – 20 лир.]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ij39hgf4kgk3um4qg33lvg2164/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EMFPdPK_eoDOb5_LLQbgQQzjLSFIb2ivCo6n4lcZQ-G70xgCtT6dqrnMSPGZGHlqYJYd0Xf-xZMpLKWPY8Fxj33SE20jzF5SEgg3Muxox6cxNkO84FhdjkufGItC_lhSbBjwf91SA_QdzmmsJPv8lJDKiFq_KdY4eEzAvAklONjnMm7amG6oMYeJOF6GaLVyQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.977878,41.008384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей Большого Дворца Мозаики</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/qplj081oalbli4bldmqiasvh0c/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HGzDrdoWXjSOieV_E_iXLtT8DqUp8FLHBoqJ04yLhEGYWj3_DY-8nq8xdTGntA1pn8kXcSVVwKwvoy_EAPJVa6507Ba2Mt2pzphDSoshjUSBEydsN6R1RDeK7R18izP_XRX5wPaKP1hG88jdRCkvA3asWTWT5OQoRCQS4OI0dRQOBwD5iqPtx7OSVpWB7Lc_s?session=0&fife" height="200" width="auto" /><br><br>За Голубой мечетью на пешеходной улочке притаился музей мозаик Большого дворца (Sultanahmet Mh., Arasta Çarşısı, Fatih). Когда-то здесь был императорский дворец, но землетрясения разрушило его полностью, а позже археологи нашли мозаики, в том числе очень древние. Идеальное место, чтобы погрузиться в историю и отдохнуть от постоянного хаотичного движа города.<br><br><img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3669ui71nibim5f5fstafttk80/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Eov4Uq5hZODfgw61lKE5DAF3ROnBjVsAfb0BgGpZRbP4g649rj9lDMCmbSOrxGUIeNuAUeQ7-xQjSwBPhIBWmKFEuDumNs-iNTrWr14bke7-FlJLa5VSrZZ7g_WMmFMfUOATQM82AgwT4C07kRVsA9hipbMvnhD7p_tgymdfuatU09FXsXBmAfkIsx7-09GN4?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/qplj081oalbli4bldmqiasvh0c/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HGzDrdoWXjSOieV_E_iXLtT8DqUp8FLHBoqJ04yLhEGYWj3_DY-8nq8xdTGntA1pn8kXcSVVwKwvoy_EAPJVa6507Ba2Mt2pzphDSoshjUSBEydsN6R1RDeK7R18izP_XRX5wPaKP1hG88jdRCkvA3asWTWT5OQoRCQS4OI0dRQOBwD5iqPtx7OSVpWB7Lc_s?session=0&fife https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3669ui71nibim5f5fstafttk80/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Eov4Uq5hZODfgw61lKE5DAF3ROnBjVsAfb0BgGpZRbP4g649rj9lDMCmbSOrxGUIeNuAUeQ7-xQjSwBPhIBWmKFEuDumNs-iNTrWr14bke7-FlJLa5VSrZZ7g_WMmFMfUOATQM82AgwT4C07kRVsA9hipbMvnhD7p_tgymdfuatU09FXsXBmAfkIsx7-09GN4?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9774095,41.0042967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сулеймание (мечеть)</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/s6plqfdq1tq8b7ibvrpekcrs10/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FrKSiqi9KMPZLSUn4Ngu0tss4Yz3NfG0qRWZGHlBoV2gxsYSh4loBacSvGekVhWmoyOVJmLujtDsywHTRf2TW_CpKwRNehHx1feP59KbdULMO2GWjAdhFf6STaA8oU2gBlszQrAtigHp-SR3RSB5vb9KK03mcjXS-BVOyS-NFBfQ8NViDpBwCnRy4mvvSYjIE?session=0&fife" height="200" width="auto" /><br><br>Кстати, внимания заслуживают и менее известные мечети. К примеру, Сулеймание (Süleymaniye Mah., Prof. Sıddık Sami Onar cad. 1, Fatih), которую для Сулеймана Великолепного создал знаменитый османский архитектор Синан. Недавно она была восстановлена и сейчас считается лучшей из 42 сохранившихся мечетей, которые зодчий проектировал для Стамбула. Кроме самой архитектуры фишка Сулеймание – в том, что она сохранила большую часть первоначального комплекса зданий: несколько медресе, больницу, библиотеку и хамам. А местные сейчас приезжают сюда, чтобы съесть вкусную курицу или запеченные бобы.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/s6plqfdq1tq8b7ibvrpekcrs10/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FrKSiqi9KMPZLSUn4Ngu0tss4Yz3NfG0qRWZGHlBoV2gxsYSh4loBacSvGekVhWmoyOVJmLujtDsywHTRf2TW_CpKwRNehHx1feP59KbdULMO2GWjAdhFf6STaA8oU2gBlszQrAtigHp-SR3RSB5vb9KK03mcjXS-BVOyS-NFBfQ8NViDpBwCnRy4mvvSYjIE?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9639641,41.0161294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Собор Святой Софии</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/oqdtvok6bqh5tvfjrqblloashg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ESPC5OEtV0miYa7R8eNaHgaGOztsCDSZX3Wc2DBVPQCvsMvtsJ4tEi48cfu2CjmCdOOBMmVLKlnwnRQPI1VMNROIxX-zC4lMVLBGd-R-qVjuMkhThO0n-CtzWpV25vugjDOIpl-7D4xmsmnOMD0rhYjJSHJ-ammVzDY1X9xgMyr4aYjXvt9cwUU7aVR5sZhXKC?session=0&fife" height="200" width="auto" /><br><br>Айя-София (Sultanahmet Mh., Ayasofya Meydan, Fatih) – еще одно место, ради которого стоит потерпеть туристов. Это уникальное здание сначала было православным собором, а потом мечетью, а сейчас здесь музей. Больше тысячи лет собор считался самым большим храмом христианского мира – пока в Риме не построили Собор Святого Петра. Айя-Софии почти полторы тысячи лет, при этом здание в идеальном состоянии. Здесь же можно увидеть соседство двух религий: христианские фрески и мозаики органично сочетаются с цитатами из Корана на огромных щитах. Не забудь забраться на балкон по стоптанным за 15 веков ступенькам, а также, как каждый уважающий себя турист, засунуть палец в плачущую колонну и прокрутить на 360 градусов, загадав перед этим желание. Стоимость билета – 60 лир.<br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0rni9lfk2m37opq0tn0dbb74l8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Ek18W3vlIbco3SiIdPPojOaTRWtTbmv0UFkEaP1QCEy2kQ62uWnUxtrwY9h8Kprc3gRyuw2F9EPtHZ60wFcQGO7VtF_XUONyYSoGUqb0ogJljluqo_IWTCTnnE5CKynEVIF8-yGMPSUZSUlp8IthL1WqxezHsm8swvl1cJWaQPRdu173LZ3m6PSs-0nZFZlHs?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/oqdtvok6bqh5tvfjrqblloashg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ESPC5OEtV0miYa7R8eNaHgaGOztsCDSZX3Wc2DBVPQCvsMvtsJ4tEi48cfu2CjmCdOOBMmVLKlnwnRQPI1VMNROIxX-zC4lMVLBGd-R-qVjuMkhThO0n-CtzWpV25vugjDOIpl-7D4xmsmnOMD0rhYjJSHJ-ammVzDY1X9xgMyr4aYjXvt9cwUU7aVR5sZhXKC?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0rni9lfk2m37opq0tn0dbb74l8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Ek18W3vlIbco3SiIdPPojOaTRWtTbmv0UFkEaP1QCEy2kQ62uWnUxtrwY9h8Kprc3gRyuw2F9EPtHZ60wFcQGO7VtF_XUONyYSoGUqb0ogJljluqo_IWTCTnnE5CKynEVIF8-yGMPSUZSUlp8IthL1WqxezHsm8swvl1cJWaQPRdu173LZ3m6PSs-0nZFZlHs?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.980175,41.008583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дворец Топкапы</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ah4ieb4qps1ons5h0c2qod7r0c/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HJq2moue9bc78pQDlTpJ0p3ZC-5TBXLi1p1Mfhc9mbIboP2zdePzU1AICn-0_SyOOhiwCJDmgqMPc2wXRiYqeS2aBr3uZj7SkqDSrfD4l7VMWGvO4WqL5BEJXTQRaMvvpllm21WZj86CAcBGQ7tESkDAYk0olgNYhVQY8o3z4RizXVS6rr-3Gpk9FtEVS0wBY?session=0&fife" height="200" width="auto" /><br><br>Дворец Топкапы (Sultanahmet, Fatih) был когда-то главным дворцом Османской империи, именно отсюда огромным государством правили его султаны. А сейчас здесь целый кластер достопримечательностей. Интересно посмотреть сами дворцы (а их целых четыре – на 7 тыс. кв. м.), рассмотреть дворы, ворота, разнообразные помещения, покои и павильоны. К дворцу прилегает парк Гюльхане (Gülhane Parki), старейший и один из самых крупных парков города и просто очень приятное место. В-третьих, здесь же в парке найдешь Стамбульский исторический музей исламской науки и техники – приходи позалипать на старые оптические и астрономические приборы.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ah4ieb4qps1ons5h0c2qod7r0c/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HJq2moue9bc78pQDlTpJ0p3ZC-5TBXLi1p1Mfhc9mbIboP2zdePzU1AICn-0_SyOOhiwCJDmgqMPc2wXRiYqeS2aBr3uZj7SkqDSrfD4l7VMWGvO4WqL5BEJXTQRaMvvpllm21WZj86CAcBGQ7tESkDAYk0olgNYhVQY8o3z4RizXVS6rr-3Gpk9FtEVS0wBY?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9833789,41.0115195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Парк Гюльхане</name>
+        <description>старейший и один из самых крупных парков города и просто очень приятное место</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.9815101,41.0133079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Istanbul Museum of the History of Science and Technology in Islam</name>
+        <description>приходи позалипать на старые оптические и астрономические приборы.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.9796954,41.0138231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дворец Долмабахче</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rmgotlh2a4trvrb8r2civ7rc7g/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Eyh0TMtkTMfxAAHQZq3JXCeeo-MuylKPxVYQI9idaKtggL7myzGkO7xWrlHDOMXjGJhi0tJAjhXrwOaVcrdHixL2pVOzaC6-8oUeT23KnqN8f1p3Y6YzpudmWS9Sb2aUnrWiQJt7uEjHwgmyCfZHdZnH2ezeVgOIThS_TDdcdI2pdwmbkPHeHDjJwmtCLYibwg?session=0&fife" height="200" width="auto" /><br><br>Обязательно наведайся во дворец Долмабахче – вторую резиденцию турецких султанов. Восхищает все: и сам дворец (так называемый офис) с самой большой в мире люстрой, и гарем, и картинная галерея (где есть даже Айвазовский). Особенно советуем прогуляться по ухоженному саду и поглазеть на Босфор.<br><br><img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/m8ostfme2dslu7fdfteek3lq74/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H8Lt6jKU_RNeFqOwdGzvjyB26bUGzRatKnTKpbb6fSFEdq-l0W59LxsMY1lrv5egWBJFek_FcduQh_ABKt1DiX_b71Jnt02qXWxwoLnuc81oNs1bWPKV1E3RWtqmGm3b5M6d6A-nCB26qU0dacgqhxnDqnijM0iFap9jsgoNhEyz4hZrgYs5idbt8bF5fcS1tk?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rmgotlh2a4trvrb8r2civ7rc7g/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Eyh0TMtkTMfxAAHQZq3JXCeeo-MuylKPxVYQI9idaKtggL7myzGkO7xWrlHDOMXjGJhi0tJAjhXrwOaVcrdHixL2pVOzaC6-8oUeT23KnqN8f1p3Y6YzpudmWS9Sb2aUnrWiQJt7uEjHwgmyCfZHdZnH2ezeVgOIThS_TDdcdI2pdwmbkPHeHDjJwmtCLYibwg?session=0&fife https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/m8ostfme2dslu7fdfteek3lq74/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H8Lt6jKU_RNeFqOwdGzvjyB26bUGzRatKnTKpbb6fSFEdq-l0W59LxsMY1lrv5egWBJFek_FcduQh_ABKt1DiX_b71Jnt02qXWxwoLnuc81oNs1bWPKV1E3RWtqmGm3b5M6d6A-nCB26qU0dacgqhxnDqnijM0iFap9jsgoNhEyz4hZrgYs5idbt8bF5fcS1tk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0004594,41.0391643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Монастырь Хора</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/v4o4471kn0fhu53hv1e3bcmh68/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HTALSFU_a6W6zE-tq3l7WIuRvX9vfRZU9-XyKNuidAoSRmuNuHURY2xtBKR05jKGoAnpHxJ0LRh-7sQJs8YeueyTEu1g5xlOeRs_1FmzmmzWN1BKszpwCn8g0RBfE9yhuphA7k4h7hfE8FC_EZuGn4hjpXW2Mo2eURzI1hEu0imccYk-1KYcRNQ14ax3Q5Q2Y?session=0&fife" height="200" width="auto" /><br><br>Из тех мест, куда добирается не всякий турист, стоит отметить монастырь Хора (Ayvansaray Mh., Kariye Cami Sk., 26, Fatih). Его церковь (Христа Спасителя в Полях) – византийская церковь в Стамбуле, которая отменно сохранилась. Лет пятьсот назад ее переделали в мечеть, но в середине прошлого века отреставрировали и открыли как музей, так что теперь каждый желающий может полюбоваться на ее мозаики. Отдельное удовольствие – кривыми улочками спускаться от монастыря к Золотому Рогу, атмосфера там особенная.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/v4o4471kn0fhu53hv1e3bcmh68/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HTALSFU_a6W6zE-tq3l7WIuRvX9vfRZU9-XyKNuidAoSRmuNuHURY2xtBKR05jKGoAnpHxJ0LRh-7sQJs8YeueyTEu1g5xlOeRs_1FmzmmzWN1BKszpwCn8g0RBfE9yhuphA7k4h7hfE8FC_EZuGn4hjpXW2Mo2eURzI1hEu0imccYk-1KYcRNQ14ax3Q5Q2Y?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9391883,41.031205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Вокзал Сиркеджи Marmaray Sirkeci İstasyonu</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/7tvaktt43jqjgn5a9uu6pnuf78/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FFI9KAYvmTIYKkPjs97affTy_1DKm2VSwdRY_8sw1xp3-8HyRH2uTwdmrXiPZNVqF4iqoVR_RXlIjczrBhSeWOjerbPTdXffdT-HFCz-DT_bvIN8qkHrS8Q4DKR0gAnQQmn1OaJ1wdPxFH63Fg5-5uwzebhx47ZPvaDkhrt1eF5PFj8JMXJpTlc6BhrsYHcfc?session=0&fife" height="200" width="auto" /><br><br>Мало народу и на вокзале Сиркеджи (Sirkeci Meydanı, Fatih) – том самом, куда приходил легендарный Восточный экспресс. Именно здесь тебя ждет первый поезд, который ходил из Парижа в Стамбул в конце XIX века.<br><br><img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/htu1os3o0e4igscm1had608rg8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HhTesB5Keq9HXpho0obZkoocPeEjwOwnFujwr7DUtkJmDtIt61NQvRkDdrnTXDCKTp_rtt4HB7_B-fCHjX98J6K0-BXz18_g71Ren0VSctFK4MpnxP2o46qPgs3PEmLKxuZCwAncHTvXs9ZGptQuGz-9UNN7rRP4iBANaKyph5NfDF2-yeGMbQzinLHpRaDS4?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/7tvaktt43jqjgn5a9uu6pnuf78/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FFI9KAYvmTIYKkPjs97affTy_1DKm2VSwdRY_8sw1xp3-8HyRH2uTwdmrXiPZNVqF4iqoVR_RXlIjczrBhSeWOjerbPTdXffdT-HFCz-DT_bvIN8qkHrS8Q4DKR0gAnQQmn1OaJ1wdPxFH63Fg5-5uwzebhx47ZPvaDkhrt1eF5PFj8JMXJpTlc6BhrsYHcfc?session=0&fife https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/htu1os3o0e4igscm1had608rg8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HhTesB5Keq9HXpho0obZkoocPeEjwOwnFujwr7DUtkJmDtIt61NQvRkDdrnTXDCKTp_rtt4HB7_B-fCHjX98J6K0-BXz18_g71Ren0VSctFK4MpnxP2o46qPgs3PEmLKxuZCwAncHTvXs9ZGptQuGz-9UNN7rRP4iBANaKyph5NfDF2-yeGMbQzinLHpRaDS4?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.976465,41.014974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей турецкого и исламского искусства</name>
+        <description>А здание второго, не менее крутое, чем его начинка, при Сулеймане Великолепном было дворцом Ибрагима Паши.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.9747201,41.0062236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>улица İstiklal </name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/70ltev926u71bct53ffe19tbb4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E3D72BWgpd1G5nfZRYrJS6-Auxdfmfy4ECl6vp1cCUC7fgCznhyHNmH7kY3HDehb5CJUEAoLwTmaFWPLEG48uFu2q92pxaNqo47W0R7UVmQsdQ-dmUTTyfa28UCZf7JlJFLXFRQzd1ls7vstfoeQ7KA0yglNmrJPtGOramMbmW2erq_pSNH1gCmfpG83va878?session=0&fife" height="200" width="auto" /><br><br>Об этой улице слышали многие, она одна из самых любимых среди у туристов. Кто-то подсчитал, что за выходные дни через нее проходит около 3 миллионов человек. Энергетика, которая витает в воздухе над улицей Истикляль особая, чувствуется какой-то дух свободы и перемен, перемен Стамбула и Турции в целом к лучшему. Особую атмосферу создают на улице играющие и поющие артисты, причем делают они это так, что пройти мимо и не остановиться просто невозможно. Подробнее о нашей прогулке по улице Истикляль.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/70ltev926u71bct53ffe19tbb4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E3D72BWgpd1G5nfZRYrJS6-Auxdfmfy4ECl6vp1cCUC7fgCznhyHNmH7kY3HDehb5CJUEAoLwTmaFWPLEG48uFu2q92pxaNqo47W0R7UVmQsdQ-dmUTTyfa28UCZf7JlJFLXFRQzd1ls7vstfoeQ7KA0yglNmrJPtGOramMbmW2erq_pSNH1gCmfpG83va878?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9779527,41.0337874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Галатская башня</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/o4jkp6k8jgrdl65535dj3uf608/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Eq6Km43yoC_-qe7iEFf-_mwjEyjz_MP-S75rqJCkcgQAlN1x_h5z6fFFCiYqgbaLRFybQo7zhNZfBWwZDHO-IM1CnsEA2NxTXOwxWIU2tjr7Ghg0vLt4Pe5etl8nOmD7Bjzo3zPtq_Uu2yYvhg8OkjvzHAQfxMCBiM7B1mCzRKR8nJFaXwE6N5ZnYUXV5XLq8?session=0&fife" height="200" width="auto" /><br><br>Opening Time: 08:30<br>Closing Time: 23:00<br>Box Office Closing Time: 22:00<br><br>Каждый желающий может подняться на смотровую площадку башни и с высоты около 70 метров увидеть Стамбул. Галатская башня, благодаря своему расположению, хорошо видна с разных районов и мест города. Сами мы не поднимались на нее, но гуляли в том районе и по нашим наблюдениям, во второй половине дня, за 2 часа до закрытия людей желающих подняться становится поменьше.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/o4jkp6k8jgrdl65535dj3uf608/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Eq6Km43yoC_-qe7iEFf-_mwjEyjz_MP-S75rqJCkcgQAlN1x_h5z6fFFCiYqgbaLRFybQo7zhNZfBWwZDHO-IM1CnsEA2NxTXOwxWIU2tjr7Ghg0vLt4Pe5etl8nOmD7Bjzo3zPtq_Uu2yYvhg8OkjvzHAQfxMCBiM7B1mCzRKR8nJFaXwE6N5ZnYUXV5XLq8?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9742631,41.0255608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Девичья башня (на реставрации)</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ffu6jvljo1en627crboeaeh1qg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EyGCb6en4GNkAwnsPSzsZzT3Iqo6sDqPVjqWA_a1FzT71haYBzzVzHwFyZX2I9g51izJB_9vA2ADWZh-mBZEi8_dAeKBtJhJAWJuwCZLgnsysEk98CWdZ8VP8bJD76EryriR4BZqU0l8s_8bDwOAS8rL8z1ZJbgciEcpA-f-WbwDrvgG5_m1WAAEIm3EnHGag?session=0&fife" height="200" width="auto" /><br><br>Девичья башня (Кыз Кулеси) была построена в водах пролива Босфор на небольшом каменистом острове. Считается, что укрепления на этом крошечном участке суши появились еще в 400 году до н.э. во время войны Афин со Спартой. При османском владычестве на острове построили маяк. Девичья башня успела послужить тюрьмой, изолятором, хозяйственным помещением для военных и моряков, выставочной галереей. С конца XX века здесь размещается смотровая площадка и ресторан.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ffu6jvljo1en627crboeaeh1qg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EyGCb6en4GNkAwnsPSzsZzT3Iqo6sDqPVjqWA_a1FzT71haYBzzVzHwFyZX2I9g51izJB_9vA2ADWZh-mBZEi8_dAeKBtJhJAWJuwCZLgnsysEk98CWdZ8VP8bJD76EryriR4BZqU0l8s_8bDwOAS8rL8z1ZJbgciEcpA-f-WbwDrvgG5_m1WAAEIm3EnHGag?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0041105,41.0211216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дворец Бейлербейи</name>
+        <description>Дворец в стиле барокко в азиатской части Стамбула, возведенный в середине XIX века. Здание использовалось в качестве летней резиденции османских султанов. Во внутреннем убранстве дворцовых помещений используется смешение восточной и европейской традиции, что делает интерьеры достаточно оригинальными. Планировка выполнена в типичном турецком стиле – внутренние дворики, отдельный павильон для гарема и помещения для хамама.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            29.039905,41.0426451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Крепость Румелихисар</name>
+        <description>Мощный форт на живописном берегу Босфора, построенный в XV веке при султане Мехмеде II Фатихе. Защитные стены крепости были возведены всего за несколько месяцев. Румелихисар была построена специально для штурма Константинополя, чтобы отрезать город от пролива. После падения Византийской империи, крепость использовалась в качестве таможенного пункта. Реставрация была проведена в середине XX века.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            29.0566979,41.0848224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yıldız Sarayı Müzesi</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/me6rmd8dgrpuclplqoi64151os/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EkE3YR6y7gkBHcSnZl1ZfJnWvTRsBEGyvUGvVNMUpWYJHXSVUNmAuGOPsjnOHR1zlQ9qIyKjyF6MGXhe2b-8t6wGphDPNSCJe4Kdhoqsqk-NUhCM5vQ_w1IrEDnMZf1Fw-yKrG5DkCGDACZrRRYby_uY-X65OAmz1PUNhXe0V7HzJzt7N7CMrrprBhp-izhSk?session=0&fife" height="200" width="auto" /><br><br>Живописный дворцово — парковый комплекс на побережье Мраморного моря. Сначала на месте современного дворца была построена вилла для матери султана Селима III. Йылдыз представляет собой сооружение, в котором воплотились несколько архитектурных стилей: европейская классика, барокко, восточная манера. Дворец окружен великолепным цветущим парком. С 1994 года на его территории располагается музей.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/me6rmd8dgrpuclplqoi64151os/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EkE3YR6y7gkBHcSnZl1ZfJnWvTRsBEGyvUGvVNMUpWYJHXSVUNmAuGOPsjnOHR1zlQ9qIyKjyF6MGXhe2b-8t6wGphDPNSCJe4Kdhoqsqk-NUhCM5vQ_w1IrEDnMZf1Fw-yKrG5DkCGDACZrRRYby_uY-X65OAmz1PUNhXe0V7HzJzt7N7CMrrprBhp-izhSk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0126513,41.050484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Площадь Султанахмед (Ипподром)</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/f5905ojdr8420gffeo8glub4h8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Grmas480kU-50_roa66AWkIXV6eO32CtSiN7iNOFp8rj4kfPAP4s5JVxTJArb5NrXxy_J1Q_rngitb2Lv9gHV1gbAc1Bk0d7-_HDuSZuNRh7o1E8SNBMqAYW3IcuGL_THOkuYmUn9sNQtcHIdOE5q3cRSzapEfackfLxN1qmudQwczyG6Yt6msa2Y026G7HYE?session=0&fife" height="200" width="auto" /><br><br>Место, где еще во времена Римской империи 2 тысячи лет назад устраивались лошадиные бега. В эпоху владычества Османской империи амфитеатр на площади был разобран, многие его фрагменты пошли на строительство жемчужины Стамбула – Голубой мечети. На площади находятся обелиски византийских императоров Константина Багрянородного и Феодосия, а также древнегреческая змеевидная колонна.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/f5905ojdr8420gffeo8glub4h8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Grmas480kU-50_roa66AWkIXV6eO32CtSiN7iNOFp8rj4kfPAP4s5JVxTJArb5NrXxy_J1Q_rngitb2Lv9gHV1gbAc1Bk0d7-_HDuSZuNRh7o1E8SNBMqAYW3IcuGL_THOkuYmUn9sNQtcHIdOE5q3cRSzapEfackfLxN1qmudQwczyG6Yt6msa2Y026G7HYE?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9761747,41.0066534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Миниатюрк</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/sn44fjv5mlsb2mjala2klabbbg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GQabBl6uC8_mn9t6pqsJXoTDzFvIovDh3pYv4WWIZD2XIiBKiNhBpeFmiNidEwX8UArw8PHVyjIMP2SfuldcD1AKlJtmeJitmLtlin-raRSI7RTtM6QVTvHisE_eLspjhNB-VnRIPc-p3c81dAR3KYNJneS9DymI4PNYZX8ulUAKGkBdzggW8roMI14_ufORk?session=0&fife" height="200" width="auto" /><br><br>Парк находится на берегу бухты Золотой рог. На его территории располагаются макеты турецких и мировых достопримечательностей, выполненные в соотношении 1:25. Всего в Миниатюрке более ста различных фигур, среди которых – Голубая мечеть Стамбула, собор Святой Софии, греческий храм Артемиды, дворец Топканы. Также в парке есть миниатюрная железная дорога, аэропорт и морской порт.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/sn44fjv5mlsb2mjala2klabbbg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GQabBl6uC8_mn9t6pqsJXoTDzFvIovDh3pYv4WWIZD2XIiBKiNhBpeFmiNidEwX8UArw8PHVyjIMP2SfuldcD1AKlJtmeJitmLtlin-raRSI7RTtM6QVTvHisE_eLspjhNB-VnRIPc-p3c81dAR3KYNJneS9DymI4PNYZX8ulUAKGkBdzggW8roMI14_ufORk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9490476,41.0589118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Акведук Валента</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3f4g4v1g651fia3htoangmg5g0/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ENgNM7zSEBTNDMocxfBwfWDygB2xEhfee_fCO5mOYLIKa98mu5sr3EDwtjTjVDJdXSVb9pphUF49mnFiX5zGfqHjC3iTxuml3hcWXf5fFUv5DUSYkkuPfjZnBtemFISGjZBTNv9LvXSxbhwRx6PlYDiXBqH7xVymzq4lZFZPhk5c9dY6gW-0tnVGOLngIuJxs?session=0&fife" height="200" width="auto" /><br><br>Сохранившаяся часть древней системы водоснабжения Константинополя. Примерная дата постройки акведука – 375 год н.э. Общая протяженность каменного водопровода составляла более 550 км., акведук Валента – это небольшой отрезок в 1,5 км., соединявший два соседних городских холма. В VII и VIII вв. конструкцию ремонтировали. Акведук успешно работал до XII века, после чего был заброшен. При султане Сулеймане Великолепном его снова отремонтировали и стали использовать для доставки воды в Топкапы.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3f4g4v1g651fia3htoangmg5g0/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ENgNM7zSEBTNDMocxfBwfWDygB2xEhfee_fCO5mOYLIKa98mu5sr3EDwtjTjVDJdXSVb9pphUF49mnFiX5zGfqHjC3iTxuml3hcWXf5fFUv5DUSYkkuPfjZnBtemFISGjZBTNv9LvXSxbhwRx6PlYDiXBqH7xVymzq4lZFZPhk5c9dY6gW-0tnVGOLngIuJxs?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.955613,41.0159531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Walls of Constantinople</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3lkhcoj1mp8aat10on4d6c9bto/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GpId8BXiRG18OaKCBTos3gJc6WOl5sirEnndrYEjPk-XzsDEf7LOsYVmAqziiCkL6yGIeYBA08muTSZTn_k0f2tw5oJqAJQnptmemlx0F9Rq1KVVZ7Fm5ZEQ-zIKOFntQW3aO6FE9yiFC3jkhd38OlFQQd7noz3Fe0p4-FZ0RaMz-kG4K7kJ5E_FYrxZO87I4?session=0&fife" height="200" width="auto" /><br><br>Оборонительная система византийской столицы, сохранившаяся с V века н.э. Она была возведена с целью защиты города от набегов варварских племен. Стены дошли до наших дней в хорошем состоянии во многом благодаря османским завоевателям. После покорения Константинополя они отреставрировали все постройки. В первой половине XX века стены начали разбирать, но в 80-хх гг. было принято решение о восстановлении.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3lkhcoj1mp8aat10on4d6c9bto/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GpId8BXiRG18OaKCBTos3gJc6WOl5sirEnndrYEjPk-XzsDEf7LOsYVmAqziiCkL6yGIeYBA08muTSZTn_k0f2tw5oJqAJQnptmemlx0F9Rq1KVVZ7Fm5ZEQ-zIKOFntQW3aO6FE9yiFC3jkhd38OlFQQd7noz3Fe0p4-FZ0RaMz-kG4K7kJ5E_FYrxZO87I4?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9362899,41.0314994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Галатский мост</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0qkh3gemlgvu4rf4k5ftm0i8b4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Fq3sH8jiq2GMdmyC3-HGk3p1I4QKFklsQ7sR_k4a3KGNeDWnjFzRKdV7C5OEzH629bCdmoh6qpI6x6GlbhFhEMZ22KlWFDT0-mHm-axnDC3QEGez5VkUt3MhZngWN8ZJIaSGNOwUZqQD4J-MUwwvqygbXF5wE5LpsczK2846mCizLH9A9u_zk8y11FpFyG1jQ?session=0&fife" height="200" width="auto" /><br><br>Мост через бухту Золотой Рог. Сооружение было построено в середине XIX столетия при правителе Абдул-Меджиде I. Еще одно распространенное название конструкции – «Мост Валиде», так как в строительстве активное участие принимала мать султана. Мост пережил пять реконструкций, в 2005 году через него были проложены трамвайные пути.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0qkh3gemlgvu4rf4k5ftm0i8b4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Fq3sH8jiq2GMdmyC3-HGk3p1I4QKFklsQ7sR_k4a3KGNeDWnjFzRKdV7C5OEzH629bCdmoh6qpI6x6GlbhFhEMZ22KlWFDT0-mHm-axnDC3QEGez5VkUt3MhZngWN8ZJIaSGNOwUZqQD4J-MUwwvqygbXF5wE5LpsczK2846mCizLH9A9u_zk8y11FpFyG1jQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9732201,41.0200155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Босфорский мост</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/l30tu6339d9e09k99mvs2ubods/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G2b-Xe8EF1jfqzHzgW1OTZMW3bWD52_U4H3S7GHI9vxBHBvjTiQ8jVT0mjpm7JQvcWnr7O8rVX__lgwgHx0wq5uXxKt83a2euhJpSfRvB-m0HVO3jH07gRc919KoOoFEp4uF1XzGEt3h-T8rxKVMXMtmeCgSqT6SXYzu5frKW-E9yimpp168p0i_E2WXxm-64?session=0&fife" height="200" width="auto" /><br><br>Современный подвесной мост через Босфор, торжественно открытый в 1973 году в присутствии президента и премьер-министра Турецкой республики. Конструкцию поддерживают две металлические башни, находящиеся на расстоянии примерно 1 км. друг от друга. Общая длина моста – 1560 метров. В вечернее время включается разноцветная подсветка, раскрашивающая мост в яркие краски. В максимально загруженные часы конструкция провисает на 90 см.<br><br><img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/5njnrt61bsa198e554im2j24js/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EZxP5si78Z8AwEIPGb0EWgs6BGlCC11NiYdGeqFv4hft_TWtBrgJJoWsFMd2ECGeVRRcQkOuRMejkHPcAGNqlhUDPldZBB_59Z7gix5l0jw4AlwaeMp9DGUFOj70mIFsZ8N2GiPSM4GKw3p3SiS-a859s0brU4GiPgMxA64maI1oPU9fazllvHskF9G-RIWHc?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/l30tu6339d9e09k99mvs2ubods/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G2b-Xe8EF1jfqzHzgW1OTZMW3bWD52_U4H3S7GHI9vxBHBvjTiQ8jVT0mjpm7JQvcWnr7O8rVX__lgwgHx0wq5uXxKt83a2euhJpSfRvB-m0HVO3jH07gRc919KoOoFEp4uF1XzGEt3h-T8rxKVMXMtmeCgSqT6SXYzu5frKW-E9yimpp168p0i_E2WXxm-64?session=0&fife https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/5njnrt61bsa198e554im2j24js/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EZxP5si78Z8AwEIPGb0EWgs6BGlCC11NiYdGeqFv4hft_TWtBrgJJoWsFMd2ECGeVRRcQkOuRMejkHPcAGNqlhUDPldZBB_59Z7gix5l0jw4AlwaeMp9DGUFOj70mIFsZ8N2GiPSM4GKw3p3SiS-a859s0brU4GiPgMxA64maI1oPU9fazllvHskF9G-RIWHc?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0341575,41.045615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Вокзал Хайдарпаша</name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rd8pvnplgbns1jlq7rg86m46fg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EDXt9ZYxHc7mZTtNG3LIZ0n9IUVwaYJU6ACE3IE6DbsW0aFxydTJ-GBZa-g7HeVId_ncGpqiv0UApsMqxGSAeOkp5O2SBRfR2c4da5_uDC1R7RJ2GbLlq74fxl5bhVqHYHosBuxhyt3sxbqPAIcOZr7oEcpkXNMH8x7hWxOWDaoQPerYlzQB9FGUCMLa5RNZg?session=0&fife" height="200" width="auto" /><br><br>Грандиозный проект немецких архитекторов начала XX столетия. Предполагалось, что вокзал станет крупным железнодорожным узлом, соединяющим Османскую империю с Дамаском, Каиром, Иерусалимом и Мединой. Но История распорядилась иначе – империя пала, а для Хайдарпаша была уготована более скромная роль. Сейчас вокзал обслуживает внутренние восточные маршруты до границ с Ираном, Арменией и Сирией.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rd8pvnplgbns1jlq7rg86m46fg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EDXt9ZYxHc7mZTtNG3LIZ0n9IUVwaYJU6ACE3IE6DbsW0aFxydTJ-GBZa-g7HeVId_ncGpqiv0UApsMqxGSAeOkp5O2SBRfR2c4da5_uDC1R7RJ2GbLlq74fxl5bhVqHYHosBuxhyt3sxbqPAIcOZr7oEcpkXNMH8x7hWxOWDaoQPerYlzQB9FGUCMLa5RNZg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0192939,40.9968247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гранд базар</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rmeog6evuimen6uraafh1bvn3k/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Hv9DiuhgZ9sBCO8fDyJUwQA0Q5dr4LLUQ69aX9ATNy5n2dweBLxY9tEpW_qfGWaH_T5yYwE73Pf_HI3orr6xrzLaoVG3sUecSKpLRGCyatjvoMpIY5iaHTZOkUWH_wqbnd-hGdDHNGKod7y55De4hA3pdYk4oukzgj5AWWk9dnb5Bg00A00ty6dAJ-eYUAiFc?session=0&fife" height="200" width="auto" /><br><br>Лучшее место для того, чтобы на полную окунуться в ритм стамбульской жизни и прочувствовать этот город, а еще – хорошенько поторговаться или научиться этому мастерству. Гранд базар расположился в самом сердце Стамбула, в районе Султанахмет, поблизости от Голубой мечети и Айя-Софии. Но это не просто самый большой рынок в мире, а целый город внутри города. Только представь: 61 улица, 4400 лавок и магазинчиков, фонтаны, мечети, кафе, школа и даже баня.<br><br>Имей ввиду, цены здесь очень завышены, так что, если и решишь что-то прикупить – торгуйся во всю силу.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rmeog6evuimen6uraafh1bvn3k/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Hv9DiuhgZ9sBCO8fDyJUwQA0Q5dr4LLUQ69aX9ATNy5n2dweBLxY9tEpW_qfGWaH_T5yYwE73Pf_HI3orr6xrzLaoVG3sUecSKpLRGCyatjvoMpIY5iaHTZOkUWH_wqbnd-hGdDHNGKod7y55De4hA3pdYk4oukzgj5AWWk9dnb5Bg00A00ty6dAJ-eYUAiFc?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9680681,41.0106848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Небоскреб Сапфир</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/1q7akahsnrp7at3m6t3onu4t60/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F7L_eYQTacLlWjhnfmygjuUQdnx42deKjeL54Bi12zl_x8CxvnRi-Ms0Rg4o4JRHHN2NV9NdmujRxxCCUJzGcXA62c1YfsQhGo6WsGMnvUVu8t6EIkRsu556RJz89ys5knaCaZWxV1rFWeBMT0kmP-VlWqy1LfJ41__F5eO-dFOrLaFQR5ldCDUvPfhVjUUmA?session=0&fife" height="200" width="auto" /><br><br>Если боишься высоты, пропускай этот пункт и читай дальше, но, если нет – запоминай. Увидеть Стамбул как на ладони можно со смотровой площадки небоскреба «Сапфир». Расположенная на высоте 236 метров, она открывает захватывающую панораму города с обзором в 360 градусов. Рекомендуем заглянуть сюда вечером, когда начнет темнеть и город осветится миллионами огней — вид просто завораживает!]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/1q7akahsnrp7at3m6t3onu4t60/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F7L_eYQTacLlWjhnfmygjuUQdnx42deKjeL54Bi12zl_x8CxvnRi-Ms0Rg4o4JRHHN2NV9NdmujRxxCCUJzGcXA62c1YfsQhGo6WsGMnvUVu8t6EIkRsu556RJz89ys5knaCaZWxV1rFWeBMT0kmP-VlWqy1LfJ41__F5eO-dFOrLaFQR5ldCDUvPfhVjUUmA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0062223,41.0849528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Стамбульский аквариум</name>
+        <description><![CDATA[Если окажешься в Стамбуле летом, то, чтобы спастись от жары рекомендуем посетить Аквариум. Здесь ты не только отдохнешь от городского шума и жары, но и умиротворенно понаблюдаешь за океанической фауной, которая представлена тут во всем своем многообразии.<br><br>Адрес: Şenlikköy Mahallesi, Florya Caddesi, Yeşilköy Halkalı Cd. No:93, 34153 Bakırköy<br>Время работы:ежедневно с 10:00 до 20:00<br>Плата за вход – 85 лир (€7,5), при покупке онлайн – 76,5 лир (€7), для детей до 2 лет – бесплатно.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.7989621,40.9651131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Лес Белград</name>
+        <description>Лесом Белград называется огромная территория на побережье Черного моря, расположенная недалеко от Стамбула. Здес ь расположены самые большие леса в окрестностях города. Но не стоит пугаться: лес Белград — совсем не дикие, непроходимые чащи. Наоборот, это излюбленное место отдыха многих местных жителей. Стамбульцы, устав от городской суеты и вечной сутолоки в транспорте, нередко приезжают в этот лес, чтобы провести выходные в спокойной обстановке, на лоне природы. Они устраивают здесь пикники с семьями и детьми. Лес особенно привлекателен в июле-августе, когда в городе стоит невыносимая жара. В Белграде множество прудов и природных источников. Эти водоемы и тень деревьев создают такую желанную прохладу. Кроме того, в этом лесу множество старинных оттоманских акведуков. Самый известный из них — акведук Моглова. Его построил прославленный придворный архитектор Синан (XVI век). Еще одна достопримечательность леса Белград — Центр конного спорта. В нем можно испытать свои силы в верховой езде.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.9672747,41.1871997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Шиле</name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/uo76ueijihsdpe240hjdtuj53o/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FzN0n52NuKfSdqlvx5pyOXOvxhvMBKhjgGDmkrKVNqxOf2PrP7pKFlkMoa23RKXdhCZmVRRpRgHX7VwvlibJ9oSTBd_CiUZFuAj3PWgWqkwGzHPkxYy3MPptZ4NzQaytkXG5rXTbp8SwyuCmiCc9DQISzAczOajFufrjoy9i-N8KxHmc8AyMa5nPRaN9au8ko?session=0&fife" height="200" width="auto" /><br><br>Шиле — небольшой черноморский курорт в окрестностях Стамбула. Здесь тоже очень красивые места, потрясающая природа и чистейшее, лазурное море. В пик сезона в Шиле слишком много отдыхающих, а вот если побывать здесь весной или в сентябре, то можно прекрасно отдохнуть и насладиться самыми прекрасными морскими видами Турции. Шиле известен и тем, что около 30-ти лет назад один простой школьный учитель совершенно случайно обнаружил в его окрестностях огромные пещеры. Одни из них славятся огромными сталактитами. Гигантские размеры этих образований производят неизгладимое впечатление, но пещеры и сами по себе очень красивы и необычны.<br><br>В других пещерах были обнаружены следы пребывания людей. Как выяснили археологи, в этих естественных природных углублениях 2 тысячелетия назад были заточены первые христиане. Позднее эти места стали считаться чудодейственными, поэтому в византийскую эпоху сюда стали стекаться тысячи паломников. Они искали в Шиле спасения от проказы. Особенной лечебной силой славились целебные источники в окрестностях поселка Кумбаба.<br><br><img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/vqk4657nsdugascmnl8homrvk0/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G4r6XYViWlFJwBbVy9zwVVILUbqfB2nJzPZWWJrBcXbYN7b6ckIXbcfQqsOcR2W147aOYSjo1PEt3j0V6yDhZ6_k8v5a9cOXgPhKDWaJ1F5JnuQ3UY-N6r0nzI38pfrWkpo-f8QkXoRAdNmUd3egImb47qf3r9_lma7uC3a5fK-fzR84AVHaJaXalmxx6jKkE?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/d5dc1kklbprvdi9l3ii4oum0rg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HOe7H5JyuiIBg-l2DDPHyAmZn4dUhkUsG98ZcrkSR958O0dZTWT08VoqVmBQ7DxAct8WwokIkNHT2AX7hO1cz-ZWkreWVYDrehAsQJMUwR2F5x7cLvUN8i-vS8eVhZRmQ7z-Gn7xVY_48ijQW-mDM6UmpIFfMEWmomYV4bbhC_W-EvSkkQ-FIpbtERnDU5jC4?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/uo76ueijihsdpe240hjdtuj53o/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FzN0n52NuKfSdqlvx5pyOXOvxhvMBKhjgGDmkrKVNqxOf2PrP7pKFlkMoa23RKXdhCZmVRRpRgHX7VwvlibJ9oSTBd_CiUZFuAj3PWgWqkwGzHPkxYy3MPptZ4NzQaytkXG5rXTbp8SwyuCmiCc9DQISzAczOajFufrjoy9i-N8KxHmc8AyMa5nPRaN9au8ko?session=0&fife https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/vqk4657nsdugascmnl8homrvk0/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G4r6XYViWlFJwBbVy9zwVVILUbqfB2nJzPZWWJrBcXbYN7b6ckIXbcfQqsOcR2W147aOYSjo1PEt3j0V6yDhZ6_k8v5a9cOXgPhKDWaJ1F5JnuQ3UY-N6r0nzI38pfrWkpo-f8QkXoRAdNmUd3egImb47qf3r9_lma7uC3a5fK-fzR84AVHaJaXalmxx6jKkE?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/d5dc1kklbprvdi9l3ii4oum0rg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HOe7H5JyuiIBg-l2DDPHyAmZn4dUhkUsG98ZcrkSR958O0dZTWT08VoqVmBQ7DxAct8WwokIkNHT2AX7hO1cz-ZWkreWVYDrehAsQJMUwR2F5x7cLvUN8i-vS8eVhZRmQ7z-Gn7xVY_48ijQW-mDM6UmpIFfMEWmomYV4bbhC_W-EvSkkQ-FIpbtERnDU5jC4?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.609588,41.174903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Greek Orphanage</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/2950tdnr2m175fr5f7b05b2gjg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GSD3-Hnzurrd96dT6EuhSpPkauVqm-J8JKorPtjBJbVOf2AkCkjp8IMeURYWyZi4kCs1_JSUcP1oveKXXEOZxwxF2UQ8nBTlFnHzdu7ZNRuD4uBVB0ET8Dd7qtgKW7k9ldndPcem_CMDtGaxjUwFwgWPePaNPJx1TJapZ7GbZEjPuoRVy9UD1BOKNe1DLz7eE?session=0&fife" height="200" width="auto" /><br><br>Когда-то в этом гигантском деревянном доме находился приют для греческих детей-сирот. А изначально дом был спроектирован как шикарный отель с казино.<br>Сегодня он уже полуразрушен и находиться там опасно, поэтому туристов внутрь не пускают. Но мы нашли старые фотографии Греческого приюта, датированные годами, когда в нем еще жили греческие мальчики-сироты.<br>Подробнее о доме-монстре читайте в этой статье.<br>Источник: https://3-tickets.ru/trip/turkey/dostorpimechatelnosti-ostrova-byuyukada.html]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/2950tdnr2m175fr5f7b05b2gjg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GSD3-Hnzurrd96dT6EuhSpPkauVqm-J8JKorPtjBJbVOf2AkCkjp8IMeURYWyZi4kCs1_JSUcP1oveKXXEOZxwxF2UQ8nBTlFnHzdu7ZNRuD4uBVB0ET8Dd7qtgKW7k9ldndPcem_CMDtGaxjUwFwgWPePaNPJx1TJapZ7GbZEjPuoRVy9UD1BOKNe1DLz7eE?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.1230741,40.8610951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Смотровая площадка и Монастырь святого Георгия Кудунского</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/97n5gsk54nmadu1rq3k2cor3vs/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HpKZ3XF3xgErJtDUgERH3cyWc4al4odi4_ihxTrscGjuhrlNd_58ygwdAkqAegnjitVyvbPvqQX3ouaru-qr7aUbI2yhLD2lUeZvcpeaNRl8-msDjXffLHzBQ97xZgDL8iRxbK4FLk1Bg-2YYU6guPjhm3-ukgd8tEZhd68tQd54v3V62IsFwAD9fkGB7bw24?session=0&fife" height="200" width="auto" /><br><br>Это главная достопримечательность острова. Церковь или монастырь Святого Георгия находится на горе Йорги, высота которой 211 метров над уровнем моря. Лошадиные повозки туда не идут, они ждут своих пассажиров у подножия горы, на Базарной площади. Если вы взяли в аренду велосипед, то в гору придется его тащить на себе.<br><br>https://www.google.com/maps/@40.8490517,29.1189875,3a,75y,290.3h,67.39t/data=!3m8!1e1!3m6!1sAF1QipNPWqsFh7hiGmB-eC_D9o3GjLJY_SJ74_LNRzcZ!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNPWqsFh7hiGmB-eC_D9o3GjLJY_SJ74_LNRzcZ%3Dw203-h100-k-no-pi0-ya160-ro0-fo100!7i8192!8i4096]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/97n5gsk54nmadu1rq3k2cor3vs/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HpKZ3XF3xgErJtDUgERH3cyWc4al4odi4_ihxTrscGjuhrlNd_58ygwdAkqAegnjitVyvbPvqQX3ouaru-qr7aUbI2yhLD2lUeZvcpeaNRl8-msDjXffLHzBQ97xZgDL8iRxbK4FLk1Bg-2YYU6guPjhm3-ukgd8tEZhd68tQd54v3V62IsFwAD9fkGB7bw24?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.118974,40.848764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nizam - красивый район</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.1163401,40.8637418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Канатная дорога</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9343486,41.0498441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Канатная дорога - Taşkışla</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9903,41.04346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Канатная дорога - Maçka</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9939868,41.0447457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Канатная дорога - Eyüp Teleferik</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9334336,41.0533038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мечеть Ортакей</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.0269478,41.0472151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Собор Святой Софии</name>
+        <description><![CDATA[бесплатно с 9.00 до 18.00<br><br>https://moystambul.ru/sobor-svyatoj-sofii/]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.980175,41.008583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гранд базар</name>
+        <description><![CDATA[с 8.30 до 19.00<br><br>https://planetofhotels.com/guide/ru/turciya/stambul/grand-bazar]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            28.9680681,41.0106848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viewpoint в парке</name>
+        <description>но сложно добираться </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            29.0252771,41.0312034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Норм набережная</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9792757,41.0233088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Смотровая площадка</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.115688,40.854125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Balat</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/aohitcr95djliivkecartt7dns/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EKnCQdqYxTTYclu-P5anAUCKAHXrzLAlV3yTcNLj1NF87-ejgbBt1cGlWa5TmU4TUmGXRqs2Tq4fr0hwUQ1PAmtsh1tWW1rS0kpXyvce05Mb62yl2LTNtyZBE3pSQilUVtK0fwmjbrW8tfP1lfdfborkiCghFAqm1pEiQkTPkpFcSTyXxrnAXFJS3tPf-mAwHv5LliBa6zR41Cmqn56or0hfaEvk8DWReshzh5Sw6rf7HV1A?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/upjv96o0sb8tr4jehg1ghb7tmo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Fmd567IkIFP68d4PIZ1JD0dDSQnFHFtnIpUIeSDHJsT56faJm1XP7cUONq_Lvlm-7hwgiu9oSYx1XEJBBuFA5uxgbDzh8IC6nKIlL6zhseaAj7p8b7l0-rwcN5y6toxJBt8vMQsRcwk4Zq44oty-bONKR2sdWWTGMTUfovh_iCmjDIUO5WELRInOpcz08-QTthjc03fQJIAECM0CSYGzSVD0uMNsCkwu9tUM51-X8LcCCQEw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/aohitcr95djliivkecartt7dns/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EKnCQdqYxTTYclu-P5anAUCKAHXrzLAlV3yTcNLj1NF87-ejgbBt1cGlWa5TmU4TUmGXRqs2Tq4fr0hwUQ1PAmtsh1tWW1rS0kpXyvce05Mb62yl2LTNtyZBE3pSQilUVtK0fwmjbrW8tfP1lfdfborkiCghFAqm1pEiQkTPkpFcSTyXxrnAXFJS3tPf-mAwHv5LliBa6zR41Cmqn56or0hfaEvk8DWReshzh5Sw6rf7HV1A?session=0&fife https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/upjv96o0sb8tr4jehg1ghb7tmo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Fmd567IkIFP68d4PIZ1JD0dDSQnFHFtnIpUIeSDHJsT56faJm1XP7cUONq_Lvlm-7hwgiu9oSYx1XEJBBuFA5uxgbDzh8IC6nKIlL6zhseaAj7p8b7l0-rwcN5y6toxJBt8vMQsRcwk4Zq44oty-bONKR2sdWWTGMTUfovh_iCmjDIUO5WELRInOpcz08-QTthjc03fQJIAECM0CSYGzSVD0uMNsCkwu9tUM51-X8LcCCQEw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9484978,41.0292106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Steps</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/94lm400dg7342mlo16k53f64oo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EvN7s5zX9cWey9wsL4_fZsMQwbn8qgkRapYeX_WbhwFO8ewIK2U-FTLYlYWHfngdvHIkHEj_Ox7zuG9ymrSp7vpt4UueXsOJxxzKdXYIzg01JTcYZ1oBWpB-VXQF-zzRLwJMx2_OSVUlDMwelop3SguolsFe6k2bbMAnI4IeK5i2esqJZeSG9c5fPqAp4SlCUi-JGNtVIq4y8vzDXHPoFRo4ncQ3LogCco8sggNvBrwye3Ug?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/94lm400dg7342mlo16k53f64oo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EvN7s5zX9cWey9wsL4_fZsMQwbn8qgkRapYeX_WbhwFO8ewIK2U-FTLYlYWHfngdvHIkHEj_Ox7zuG9ymrSp7vpt4UueXsOJxxzKdXYIzg01JTcYZ1oBWpB-VXQF-zzRLwJMx2_OSVUlDMwelop3SguolsFe6k2bbMAnI4IeK5i2esqJZeSG9c5fPqAp4SlCUi-JGNtVIq4y8vzDXHPoFRo4ncQ3LogCco8sggNvBrwye3Ug?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9863374,41.0291284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taht Istanbul</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/vcr8f4iqc2ij451mjriofgp6r8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GJiAg6FVAYT3gjMYmnQnifJnoIhpZq7iraVArnTcDygwrA8G0XTB_6bK8xeki824BnKgzB1pfHKA9TaRExcDbS5TZDxhVBzu3sS67SNl8suIXCcplu3ScPigboWRCXIu1GWuaDmQXnH8VpheUaszwrbE_2yTrdftMHWS3lEWZ2qJdMcSb6T1g_mRNiM4kD6yERLPmUY7c6d0B2wHEj28qT3KimzI1fLHj7DYmwRIGAhQoMhA?session=0&fife" height="200" width="auto" /><br><br>А теперь откроем секрет, как найти крышу Тахт в Стамбуле: эта локация находится вблизи мечети Сулеймание, вам нужно найти здание магазина мебели Yilmazlar. Внутри него подняться на самый верхний этаж и тут будет вывеска Taht — панорамные фото. Вход на крышу для съемки — 100 лир с человека (ноябрь 2020 года), можно делать фото на телефон или фотоаппарат. Приветливый сотрудник поможет подобрать наиболее удачный ракурс. Также здесь можно заказать услуги фотографа, за 400 лир вы получите 200 необработанных фото и 5 обработанных.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/vcr8f4iqc2ij451mjriofgp6r8/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GJiAg6FVAYT3gjMYmnQnifJnoIhpZq7iraVArnTcDygwrA8G0XTB_6bK8xeki824BnKgzB1pfHKA9TaRExcDbS5TZDxhVBzu3sS67SNl8suIXCcplu3ScPigboWRCXIu1GWuaDmQXnH8VpheUaszwrbE_2yTrdftMHWS3lEWZ2qJdMcSb6T1g_mRNiM4kD6yERLPmUY7c6d0B2wHEj28qT3KimzI1fLHj7DYmwRIGAhQoMhA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9662249,41.015744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Улица цветных зонтиков</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9786376,41.0248262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Naftalin K</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/2adie7v6p7lo66fdsduqdb6kvc/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Guw8vvD8Han24RhczfZg-rClCY5N5X_IXgQDTvTpTmvtmg7pe_G7keb65J9SUb9Dkd4izbSCutfCBobXhr2qejaIns7tQfFvR83JZdlYUJARFv3IpMTVygon6W_zENGxI4EpCXyg_LLJ2nLyaXW9L6GK1i-eP009qBprIJb4Hz-tnYBHvwc74fwLBfFZxogU_-yt_2x83WmQc6lvBInQkHlER1Si4css-gknjziHCgv1Sv9Q?session=0&fife" height="200" width="auto" /><br><br>Это кафе в районе Балат (Balat) стало известным благодаря Instagram — его пользователям пришлась по душе атмосферность и винтажная обстановка, а еще конечно, милые котики. Эти мурчалки приходят сюда по собственной воле и выбирают место, где им примоститься, если повезет, то и к вам будет проявлена благосклонность. Очень необычный интерьер кафе Naftalin K сделал его интересной локацией, например дверь в туалет здесь — настоящий старый холодильник, есть много картин, старых вещей, играет музыка 40-45 годов прошлого столетия. К тому же, тут варят замечательный кофе и подают отличную выпечку]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/2adie7v6p7lo66fdsduqdb6kvc/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Guw8vvD8Han24RhczfZg-rClCY5N5X_IXgQDTvTpTmvtmg7pe_G7keb65J9SUb9Dkd4izbSCutfCBobXhr2qejaIns7tQfFvR83JZdlYUJARFv3IpMTVygon6W_zENGxI4EpCXyg_LLJ2nLyaXW9L6GK1i-eP009qBprIJb4Hz-tnYBHvwc74fwLBfFZxogU_-yt_2x83WmQc6lvBInQkHlER1Si4css-gknjziHCgv1Sv9Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9509846,41.0299821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuzguncuk</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/5mt2nv73c33tv4bimmbj8n64jo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GjbLPpukopSfm4Z2wuDbhS4tHdSOKNBj-ayWHit0zQvbTsIivpeFFwoEuQtI5ooJMvdIkpei41KM6CM5h57GjgY8x7xZ74pXNhwkXCAZxKbJw9bvySsOfZbNURAwFEWjJW4UIQoWqs_269TwqjcpBaHYggzOyr3n3BHs5M23kHxCs1nnpBi6e7EzkoIEt9COokKbHVKiOKenio79MlTuxLh_x3xqJwaY7LuUV_CYSvYNq0AA?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/5mt2nv73c33tv4bimmbj8n64jo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GjbLPpukopSfm4Z2wuDbhS4tHdSOKNBj-ayWHit0zQvbTsIivpeFFwoEuQtI5ooJMvdIkpei41KM6CM5h57GjgY8x7xZ74pXNhwkXCAZxKbJw9bvySsOfZbNURAwFEWjJW4UIQoWqs_269TwqjcpBaHYggzOyr3n3BHs5M23kHxCs1nnpBi6e7EzkoIEt9COokKbHVKiOKenio79MlTuxLh_x3xqJwaY7LuUV_CYSvYNq0AA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            29.0372643,41.0361216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cezayir Street</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/c5goa06otnobfc75mio4bbus48/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Hpyv-9ztjaBxkK0sAQsYa2_BTFseCQ9G9OmZ39glRLhChd2pktcqK42z89CJ-EgI7pYABqADzAAAzkexq779wUrFlV08qfmzdcSwmi7OGuPxnLwNAAQE_FrW6trLvjKfAejOvHFwkzKQcE1Cyxdggs2R5_2ZFnM9qIr6mh6Wol9ouqKWlrymXjfYKzt3gQsSwrLs4rSFuouwd5rQF0jk2n93NVhiD6yrTiuF63vQr30IxWUQ?session=0&fife" height="200" width="auto" /><br><br>Эта локация расположена недалеко от площади Галатасарай, в центре улицы Истикляль и представляет собой прекрасную улицу, построенную во французском стиле. Ранее она была известна, как Алжирская улица. Здесь много отличных мест для красивых фото. Сюда любят приходить туристы и местные жители, чтобы насладиться атмосферой Франции среди симпатичных узких улочек, выложенных камнем тротуарах, красиво отреставрированных террасных зданиях, бутиках и галереях, кондитерских, винных домах, кафе и ресторанах, специализирующихся на французской кухне и винах.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/c5goa06otnobfc75mio4bbus48/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Hpyv-9ztjaBxkK0sAQsYa2_BTFseCQ9G9OmZ39glRLhChd2pktcqK42z89CJ-EgI7pYABqADzAAAzkexq779wUrFlV08qfmzdcSwmi7OGuPxnLwNAAQE_FrW6trLvjKfAejOvHFwkzKQcE1Cyxdggs2R5_2ZFnM9qIr6mh6Wol9ouqKWlrymXjfYKzt3gQsSwrLs4rSFuouwd5rQF0jk2n93NVhiD6yrTiuF63vQr30IxWUQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9794126,41.0315471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamondo Stairs</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/d1pdogda5fgtihaqbha2m188ts/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GaMSMtaHFMqE8P_Zz__8vfokDpC-W4cXRlcsh2cHTsx6j9KGDJQrFWjTQphVy_RRqFOfiVcQp9ILM4u2lVK2dB41c4tew30w87H58tcmZ8ihOAkCRG5uS-O5J93NWa_zE6ht8Pu_kJvRgz3GEzA5h_1kJeGVld3ZQWQwn-fhuLb3DgDoEm0uhWl3PyREjgvNT2-A-7zg_XtyKZ35WzPjWlZP2iM3HPc4TxXt-EAv74DXT4vQ?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/d1pdogda5fgtihaqbha2m188ts/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GaMSMtaHFMqE8P_Zz__8vfokDpC-W4cXRlcsh2cHTsx6j9KGDJQrFWjTQphVy_RRqFOfiVcQp9ILM4u2lVK2dB41c4tew30w87H58tcmZ8ihOAkCRG5uS-O5J93NWa_zE6ht8Pu_kJvRgz3GEzA5h_1kJeGVld3ZQWQwn-fhuLb3DgDoEm0uhWl3PyREjgvNT2-A-7zg_XtyKZ35WzPjWlZP2iM3HPc4TxXt-EAv74DXT4vQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            28.9737642,41.0239802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Транспорт</name>
+      <Placemark>
+        <name>Kabataş (T1)</name>
+        <description>конечная трамвая T1</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            28.9927115,41.0343453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fındıkli (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9893314,41.0314092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tophane (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9802,41.02673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karaköy (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9747334,41.0220984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eminönü (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9733462,41.0175239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sirkeci (T1, B)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.97589,41.01517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gülhane (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9783999,41.0120614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sultanahmet (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.97561,41.00813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Çemberlitaş (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9710303,41.0084935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beyazıt (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.96664,41.00904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laleli (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.95973,41.00962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aksaray (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9539228,41.0096355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yusufpaşa (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.94668,41.01012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haseki (T1)
+
+</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.94334,41.01093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fındıkzade (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9406593,41.0116811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Çapa - Şehremini (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9333344,41.0152683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pazartekke (T1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.92715,41.0183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Topkapı (T1)
+</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.92069,41.01975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zeytinburnu (T1)</name>
+        <description>можно пересесть на метробус и метро в аэропорт ататюрка</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            28.8899781,41.0017361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yenikapı İstasyonu (M1a, M1b, M2)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9514593,41.0055783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vezneciler (M2)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9594003,41.0121729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hali (M2)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9639704,41.0203702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Karaköy (F2)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.97405,41.02289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Beyoğlu (F2)</name>
+        <description>фуникулер</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            28.97404,41.02842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Beyoğlu Tünel (T2)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.974905,41.028833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Taksim Station (M1, F1, T2)</name>
+        <description>Фуникулер и heritage tram</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            28.98596,41.03708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Kabataş (F1)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.992179,41.033944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sishane (M2)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.97403,41.0285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Причал - Kadıköy</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.02298,40.99282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Причал - Eminönü </name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9750501,41.0174525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Причал - Bostancı (Mavi Marmara)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.094362,40.952185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Причал - Kartal</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.187814,40.8866498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Причал - Kabatas</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9933062,41.0331172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Причал - Üsküdar </name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.0152916,41.0277075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAW: Международный аэропорт имени Сабихи Гёкчен</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.3168603,40.905371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kartal</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.21108,40.90668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Автобус E-9 в 15.30 до парома Kartal</name>
+        <description><![CDATA[https://iett.istanbul/RouteDetail?hkod=E-9&routename=SAB%C4%B0HA%20G%C3%96K%C3%87EN%20H.L.-BOSTANCI<br><br>в пути наверное минут 40<br><br>такси 8-10 долларов]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            29.3151641,40.9086566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beşiktaş (Dentur)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.00778,41.04133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yıldız (M11)</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.00953,41.05434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deniz Müzesi</name>
+        <description>автобусы до илдыза 27е, 29с, 29d, 559c, 58т, 58s, 58ul, 62, 63</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            29.00655,41.04191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ertuğrul Sitesi</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.0100222,41.0562493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ihlara: parking</name>
+        <description>наверное единственная парковка в окрестности, в belisirma парковок нет, можно поискать только где-то на обочине места, но сложно</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            34.3018578,38.2534817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Derinkuyu: parking</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7351551,38.3740372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Derinkuyu: parking</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7374377,38.3713098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaymakli: parking</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7507726,38.4613919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osmanbey Metro Station</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.98737,41.05304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garenta аренда авто</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            35.4818361,38.7653045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Рестораны</name>
+      <Placemark>
+        <name><![CDATA[Loc'ada Büyükada]]></name>
+        <description>https://www.tripadvisor.com/Restaurant_Review-g635900-d11550216-Reviews-Buyukada_Loc_Ada_Otel_Restaurant-Buyukada_Princes_Islands.html</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            29.1261087,40.8575623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No:2 Garden Restaurant ( By Şükrü )</name>
+        <description><![CDATA[че-то модное<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d24935007-Reviews-No_2_Garden_Restaurant_By_Sukru-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            29.1311037,40.8729109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yücetepe Kır Gazinosu</name>
+        <description><![CDATA[красивый вид<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d3350655-Reviews-Yucetepe_Kir_Gazinosu-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            29.119353,40.848559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nizam Bistro Restaurant
+</name>
+        <description><![CDATA[прикольный вид<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d9976726-Reviews-Nizam_Bistro_Restaurant-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1162471,40.863285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bahcede Sinek Cafe</name>
+        <description><![CDATA[непонятное маленькое меню, пусть будет на всякий случай<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d4726540-Reviews-Bahcede_Sinek_Cafe-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1299148,40.861449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sermest Büyükada Cafe | Restoran | Kahvaltı</name>
+        <description><![CDATA[креветки, дорада, бургер, какие-то турецкие блюда<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d12941330-Reviews-Sermest-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1319891,40.871158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Secret Garden Restaurant Büyükada</name>
+        <description><![CDATA[деревенское лухари<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d6589764-Reviews-Secret_Garden_Restaurant-Buyukada_Princes_Islands.html#photos;aggregationId=&albumid=101&filter=7]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1299538,40.8735929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Balıkçı Süleyman</name>
+        <description><![CDATA[стандартный набор грилей<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d4877834-Reviews-Balikci_Suleyman_Buyukada-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1302449,40.8744333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nissi Restaurant & cafe]]></name>
+        <description><![CDATA[стандартный набор грилей<br><br>https://www.tripadvisor.com/Restaurant_Review-g635900-d25007300-Reviews-Nissi_Restaurant_buyukada-Buyukada_Princes_Islands.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1312726,40.8746451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мороженое Kilisli Kebapçı  Ali Usta
+</name>
+        <description>Невозможно побывать в Стамбуле и не попробовать традиционное турецкое мороженое! Для этой цели кафе-мороженое Ali Usta подойдет как нельзя лучше. Только представь — более 40 сортов мороженого, изготовленного по традиционной рецептуре с добавлением порошка из клубней горных орхидей!</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9681242,41.0117535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taksim Barisim Bufe - мокрый бургер</name>
+        <styleUrl>#icon-1899-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9853561,41.0365529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Влажный бургер Kızılkayalar Hamburger</name>
+        <description>https://kizilkayalar.com.tr/en/product/steamed-burger</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9846633,41.0358708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gasto Nişantaşı</name>
+        <description><![CDATA[ЗАВТРАК<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d23427033-Reviews-Gasto-Istanbul.html<br><br>Когда стоять очередь в Базламу нет желания, заверни за угол и занимай столик в Gasto. Здесь готовят нереально вкусный завтрак и подают его не в крошечных плошках, а в приличных по объему тарелках. Одно но: их завтрак на две персоны за 700 лир ($ 37) нужно заказывать на троих очень голодных человек, а лучше – на четверых. Если же ты один(-на) или вдвоем, то бери завтрак на тарелке Endemik Kahvaltı за 245 лир ($ 13). В него входят все те же закуски и сыры, что и в большой сет.<br><br>Если в Базламе завтрак вкусный, но вполне стандартный, то в Gasto его готовят из премиальных ингредиентов с большим вниманием к деталям. Так, каждый кусочек бублика-симита здесь дополнительно обжарят (+100 очков к симиту с каймаком и медом), а в овощную тарелку добавят авокадо. Кроме того, тебя ждут различные блюда из баклажанов и перцев по авторским рецептам, деликатесные сыры и свежевыжатый лимонад из лайма и базилика. В конце трапезы еще и десерт подадут. Все несъеденные блюда можно попросить упаковать с собой.]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9961376,41.0491929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Van Kahvaltı Evi</name>
+        <description><![CDATA[ЗАВТРАК<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d2279958-Reviews-Van_Kahvalti_Evi-Istanbul.html<br><br>Популярное место в богемном районе Cihangir в европейской части города, где подают традиционный ванский завтрак. В принципе единственное его отличие от обычного турецкого завтрака – сыры. Помимо стандартных сыров здесь подают еще знаменитый сыр van otlu peyniri с ванскими травами. Заведение владеет двумя помещениями по соседству. Второй зал (дальний, если идти от площади Таксим) намного просторнее и уютнее. Кроме того, в центре его высится старинный каменный очаг.<br><br>Единственное, большой завтрак здесь сервируют минимум на двоих по 170 лир ($ 9) с человека. В меню есть и завтраки на тарелке по 150 лир ($ 8), но они того не стоят – слишком небольшие порции с неинтересными ингредиентами (кто же в хороший турецкий завтрак включает магазинную нутеллу?).]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9824282,41.0305102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mesopotamian Breakfast Brunch Cafe</name>
+        <description><![CDATA[завтраки, вид хороший<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d17370323-Reviews-Mesopotamian_Terrace_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9809153,41.0065383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden 1897 Restaurant</name>
+        <description><![CDATA[красивое место и еда норм, внутри двора, можно забронить на трипадвайзоре, но якобы стал хуже (но это лишь один отзыв, в остальном ок)<br><br>https://www.garden1897.com/onlinemenu/category/ru<br><br>есть кебаб в горшке<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d18922001-Reviews-Garden_1897_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9725597,41.0040252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Last Ottoman Cafe & Restaurant]]></name>
+        <description><![CDATA[кебаб в горшке, много мясо, на вид ок, цены средние<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d1771102-Reviews-Last_Ottoman_Cafe_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            28.9783371,41.0138139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deraliye</name>
+        <description><![CDATA[Testi Kebab, кебаб в горшочке, 150 лир. нормальный турецкий интереьер. Дорого!<br><br>хорошее блюдо может быть до 40 евро, хотя есть относительно дешевые за 25, но не очень интересные<br><br>https://deraliyerestaurant.com/wp-content/uploads/deraliye-menu-english.pdf<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d7042346-Reviews-Deraliye_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9760922,41.0087837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zeferan Sultanahmet</name>
+        <description><![CDATA[азербайджанская?<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d12243231-Reviews-Zeferan_Restaurant-Istanbul.html<br><br>суп с микропельменями düşbere]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9692494,41.0063413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Çeşme Bazlama Kahvaltı Nişantaşı 1</name>
+        <description><![CDATA[ЗАВТРАК. по отзывам могут обсчитать, и минимальный завтрак - порция на 2их, а она большая, порции на одного хватило бы<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d10470367-Reviews-Cesme_Bazlama_Kahvalti-Istanbul.html<br><br>Очереди, но вроде не долго ждать. Главный лайфхак: на завтрак в Базламу нужно приходить в будний день после обеда, тогда есть шанс сразу же найти свободный столик. Ресторан владеет тремя помещениями. Вне зависимости от того, к какому из зданий ты подойдешь, тебя посадят за свободный столик в одном из ресторанов – для координации посетителей работники используют рации. Если же желающих окажется слишком много, то предложат записаться в лист ожидания и погулять где-нибудь часок-другой. Такое часто случается по утрам в выходные.<br><br>В Базламе нет меню и завтраки подают большими сетами, в которые включены практически все составляющие из предыдущего раздела. Дополнительно можно заказать прохладительные напитки или выбрать яичницу с различными ингредиентами, хотя классический менемен уже включен в комплексное меню. На входе в каждый зал увидишь турецких тетушек, раскатывающих и выпекающих тонкие лаваши gözleme с сыром и зеленью. Их подают горячими по мере готовности. Стоит такой сет 260 лир ($ 14) с человека. <br><br>Главная фишка заведения – множество джемов собственного производства. Каждому посетителю предложат попробовать несколько вариантов на выбор. Из интересного – лавандовый джем и варенье из перца-чили. Понравившийся вариант можно приобрести тут же. За баночку в минимальном размере 380 мл попросят 75–95 лир ($ 4–5).]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9952389,41.049071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Süreya Kahvaltı</name>
+        <description><![CDATA[ЗАВТРАК<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d20207751-Reviews-Sureyya_Kahvalti-Istanbul.html<br><br>Это небольшое заведение находится немного вдали от туристических троп, поэтому местных среди посетителей здесь всегда больше, чем туристов. Завтрак в Süreya очень напоминает еду из Базламы. Комплексное меню такое же вкусное и разнообразное, так же на входе готовят лаваш gözleme и сами пекут хлеб. Меню в заведении не существует: всем подают одинаковые сеты за 245 лир ($ 13) с человека. Дополнительно можно приобрести традиционные турецкие сладости.<br><br>Süreya отличается более камерной обстановкой и уютным интерьером. Фактически заведение расположено во внутреннем дворике обычного турецкого дома. Поэтому и оформлено оно соответствующе: кирпичные стены, много зелени и старинная потертая дверь в одной из стен. В холодное время года помещение закрывают легкой крышей и освещение идет через витражи вдоль стен. Единственный минус ресторана для многих – внутри разрешают курить.]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9858134,41.0513054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe 6</name>
+        <description><![CDATA[ЗАВТРАК<br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d7699049-Reviews-Kahve_6-Istanbul.html<br><br><br>Еще одно популярное и уютное место в районе Cihangir. Завтракать здесь особенно любят экспаты. В меню несколько вариантов турецких завтраков на тарелке по 150–180 лир ($ 8–10) за порцию. Сами они лишь слегка напоминают традиционный турецкий завтрак и скорее адаптированы под иностранцев. Большинство сетов включают овощи, оливки, сыры и хлеб. Зато и оставлять много еды недоеденной не придется. Отдельно можно заказать овощной омлет менемен. <br><br>Что отличает Kahve6 от других заведений: здесь продуман веганский вариант турецкого завтрака! Стоит такой завтрак на тарелке 159 лир ($ 8,50) и включает не только овощи, орехи и закуски на их основе, но также веганские сыры и выпечку.]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9830627,41.0303611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Çelebi Oğlu Sokak</name>
+        <description><![CDATA[ЗАВТРАКИ - улица разных кафе<br><br>Kahvaltıcılar Sokağı, или Breakfast Street, в районе Бешикташ на европейской стороне Стамбула – поинт-находка для любителей завтраков. Здесь в небольшом переулке работает с десяток мест, специализирующихся на турецких завтраках. Открыты они каждый день до 18:00. По выходным на Breakfast Street яблоку негде упасть. В то же время сотни столиков с тягучей мыхламой, горячим менеменом и множеством тарелочек с закусками создают неповторимую атмосферу.<br><br>Сами по себе заведения мало чем отличаются друг от друга. Не надейся найти здесь особые деликатесы или специалитеты – всё достаточно стандартно. Зато и цены демократичные (из-за этого завтракать сюда приходит много местных жителей). Комплексный завтрак обойдется в 180–350 лир ($ 10–19) в зависимости от размера. Многие заведения предлагают также собирать завтрак самим и заказывать закуски отдельно из меню по 50 лир ($ 3) за тарелочку – идеальный вариант для веганов и тех, кто не очень голоден(-на).]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.0030402,41.0434148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ethem Efendi Breakfast</name>
+        <description><![CDATA[ЗАВТРАК<br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d14092098-Reviews-Ethem_Efendi_Kahvalti-Istanbul.html<br><br>Стамбульцы любят собираться на завтраки большой компанией и неспешно проводить за трапезой и разговорами несколько часов. Если и ты хочешь прочувствовать эту атмосферу, отправляйся на азиатскую сторону в Ethem Efendi Kahvaltı. Этот ресторан, специализирующийся на завтраках, расположен в пяти минутах ходьбы от станции Erenköy на линии Marmaray. Заодно посмотришь, как выглядит типичный турецкий спальный район.<br><br>Ресторан занимает трехэтажное деревянное здание, окруженное садом. Столики стоят как внутри, так и в саду. Здесь тебя ждут домашние интерьеры, тетушки, готовящие лаваш gözleme, и даже игровая зона. Идеальное место, чтобы прийти на завтрак с детьми! Меню в заведении нет – всем подается комплексный завтрак по 265 лир ($ 14) с человека. В него входят сыры и молочные продукты, собранные по всей стране – от Трабзона до Измира, а также домашние джемы, множество закусок из овощей и орехов, горячий омлет менемен и свежеиспеченный хлеб. Здесь же можно приобрести понравившиеся джемы (обрати внимание на варианты с шелковицей).]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.0737709,40.971825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sayla Manti</name>
+        <description><![CDATA[Манты<br><br>http://www.saylamanti.com.tr<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d807017-Reviews-SAYLA_MANTI-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.027738,40.9885158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seven Hills Restaurant</name>
+        <description><![CDATA[вид красивый, но мясное меню не очень интересное<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d1010030-Reviews-Seven_Hills_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9797043,41.0063995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elit Ocakbaşı. Мясо</name>
+        <description><![CDATA[дешевое кафе, на вид не очень<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d14931889-Reviews-Elit_Ocakbasi-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9809563,41.0344542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zübeyir Ocakbaşı. Мясо</name>
+        <description><![CDATA[дешевое, но вид нормальный<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d1192712-Reviews-Zubeyir_Ocakbasi-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9819836,41.0364499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ozzie's 1968'Den Beri Kokoreç]]></name>
+        <description><![CDATA[Кокореч<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d10765860-Reviews-Ozzie_s_1968_Den_Beri_Kokorec-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9740174,41.0289377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Otantik Anadolu Yemekleri</name>
+        <description><![CDATA[https://www.tripadvisor.ru/Restaurant_Review-g293974-d3331147-Reviews-Otantik_Anadolu_Yemekleri-Istanbul.html<br><br>суп Yuvarlama - суп с котлетами из булгура и рубленой говядиной, большим количеством специй. Достаточно густой и очень питательный суп.]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9782684,41.0340556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olive Anatolian Restaurant
+</name>
+        <description><![CDATA[стандартное турецкое меню, вид в целом ок, цены средние вроде, мясных блюд необычных не очень много<br><br>https://www.oliverestaurant.net/en/menumuz<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d800222-Reviews-Olive_Anatolian_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9776527,41.0123495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lale sultan Restaurant</name>
+        <description><![CDATA[на вид сельское лухари, но меню мясное большое, есть кебаб в горшке, раза в 2 дешевле чем в garde 1897<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d15873705-Reviews-Lale_Sultan_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9713014,41.0044953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Rainbow fish & meat restaurant]]></name>
+        <description><![CDATA[рыбы больше чем обычно, меню ок, на вид более-менее ок<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d19343258-Reviews-Rainbow_Fish_Meat_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.979899,41.0045997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cigdem Patisserie</name>
+        <description><![CDATA[сладости<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d1820330-Reviews-Cigdem_Pastanesi-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9744224,41.0084082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queb Lounge Rooftop Restaurant</name>
+        <description><![CDATA[завтрак и ужин, вид хороший, алкоголя нет<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d17840339-Reviews-Queb_Lounge_Rooftop_Sultanahmet_Restaurant-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9804455,41.0055123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ozturkler Bufe</name>
+        <description>вкусный кебаб, стритфуд</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9847378,41.0361205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Old Ottoman Cafe & Restaurant]]></name>
+        <description><![CDATA[кебаб в горшке, на вид странноватое<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d7075920-Reviews-Old_Ottoman_Cafe_Restaurant-Istanbul.html#photos;aggregationId=&albumid=101&filter=7]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9753072,41.0106862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fıccın Mutfak</name>
+        <description><![CDATA[турецко-черкесская кухня, выглядит нормально<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d779621-Reviews-FIccIn-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9757162,41.032514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Velhasıl kafe</name>
+        <description>интересный раритетный интерьер, бургеры и картоха, завтраки</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1869383,40.8892122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burger King</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.1871108,40.8884865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espressolab Kartal</name>
+        <description>норм кофейня с десертами и выпечкой (выбор вроде небольшой), 4 этажа, неплохой вид с балкона</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.1883339,40.8884508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[McDonald's Kartal Çarşı]]></name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.1877046,40.8886305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KARTAL KOKOREÇ</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.1872828,40.8890146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>İnciraltı Tavern</name>
+        <description><![CDATA[вид неплохой, цены средние, мясо-рыба есть<br><br>https://www.inciralti.com.tr/copy-of-ara-s%C4%B1caklar<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d1846699-Reviews-Inciralti_Meyhanesi-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.0447063,41.0443534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Andelib Kahve & Özçimi Sanat Atölyesi]]></name>
+        <description>кофейня, неплохой вид на балконе до 12 ночи</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.0104233,41.0247342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hafiz Mustafa 1864</name>
+        <description><![CDATA[десерты до 2 ночи<br><br>https://www.tripadvisor.ru/Restaurant_Review-g293974-d12498723-Reviews-Hafiz_Mustafa_1864_Uskudar-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            29.0159058,41.0244548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hafız Mustafa 1864 Pera</name>
+        <description><![CDATA[сладости<br><br>https://www.tripadvisor.com/Restaurant_Review-g293974-d23174447-Reviews-HafIz_Mustafa_1864_Pera-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9797892,41.0344492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[F&B Culture]]></name>
+        <description><![CDATA[больше на бар похоже, но меню большое<br><br>https://www.tripadvisor.com/Restaurant_Review-g293974-d12633445-Reviews-F_B_Culture-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9743161,41.0251647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ney'le Mey'le Meyhane]]></name>
+        <description><![CDATA[средиземноморская, морепродукты, выглядит нормально<br><br>https://www.tripadvisor.com/Restaurant_Review-g293974-d2496852-Reviews-Ney_le_Mey_le_Meyhane-Istanbul.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            28.9777439,41.0347816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Cratus premium restaurant & Lounge]]></name>
+        <description><![CDATA[че-то модное<br><br>https://www.tripadvisor.ru/Restaurant_Review-g297983-d23544026-Reviews-Cratus_Premium_Restaurant-Goreme_Cappadocia.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            34.828926,38.6449089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nature Little Kitchen</name>
+        <description><![CDATA[азиатская, всякие рамэны и т.д.<br>для обеда сойдет<br><br>https://www.tripadvisor.ru/Restaurant_Review-g297983-d19086944-Reviews-Nature_Little_Kitchen-Goreme_Cappadocia.html]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            34.8284809,38.6429615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gurme kebab restaurant</name>
+        <description>https://www.tripadvisor.ru/Restaurant_Review-g297983-d23229356-Reviews-Gurme_Kebab_Restaurant-Goreme_Cappadocia.html</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            34.8325792,38.6442177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[İstasyon Cafe & Restaurant]]></name>
+        <description>https://www.tripadvisor.ru/Restaurant_Review-g297983-d9756211-Reviews-Istasyon_Cafe_Restaurant-Goreme_Cappadocia.html</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            34.8328799,38.644276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Семейный ресторан в пещере</name>
+        <description>https://www.tripadvisor.ru/Restaurant_Review-g297983-d8525418-Reviews-Organic_Cave_Kitchen-Goreme_Cappadocia.html</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            34.8294268,38.6413085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stone House restaurant</name>
+        <description>https://www.tripadvisor.ru/Restaurant_Review-g297983-d6550701-Reviews-Stone_House_Restaurant-Goreme_Cappadocia.html</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            34.8285745,38.6410504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Göreme Kadin Kooperatifi</name>
+        <description><![CDATA[столовая какая-то, но отзывы хорошие<br><br>https://www.tripadvisor.ru/Restaurant_Review-g297983-d23917103-Reviews-Goreme_KadIn_Kooperatifi-Goreme_Cappadocia.html]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            34.828124,38.6451672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oscar Steak House</name>
+        <description>https://www.tripadvisor.ru/Restaurant_Review-g297983-d17343183-Reviews-Oscar_Steak_House-Goreme_Cappadocia.html</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            34.8303822,38.6406195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moise Karaköy</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9744651,41.0241505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Кападокия</name>
+      <Placemark>
+        <name>Love Valley</name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/46d37sljh1mm0hiut1aetnb0oo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F7dwuKyr6uKDhW_wiscjJfdyt-x8XBedKxY42OyrURZF3gT5ms0MXpOg-krKERXbMpo8sbiqS3_iwDiwtAg3Bb05kp72OzNpH2Fl1lTZIg2c-kcThybLrp1hgEXlZNHgW1whl68aeI7FmFubQGJ20z7O3vKbxchjWkw3mHa4xb1jZLp60Pz46UZh88P7duVRo?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/46d37sljh1mm0hiut1aetnb0oo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F7dwuKyr6uKDhW_wiscjJfdyt-x8XBedKxY42OyrURZF3gT5ms0MXpOg-krKERXbMpo8sbiqS3_iwDiwtAg3Bb05kp72OzNpH2Fl1lTZIg2c-kcThybLrp1hgEXlZNHgW1whl68aeI7FmFubQGJ20z7O3vKbxchjWkw3mHa4xb1jZLp60Pz46UZh88P7duVRo?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8196334,38.6606666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uchisar Castle</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/737fuo5978n3vnpfdp16g89fds/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Gp0CeTXzdgaFMrxOf7qbf4KGla4aKN6CVE2j2jSI8QSaS7NPOJOskUcVPzXdqLD0v5a20Drgh6XZ6eNMRrws-7XHd3jbaJfLGl58ZhEddWGpDFKaYPI3ikqe5XsHiRCHU4E28X8SppABTnlgoePI4z7Mi0ISyTao1sbu5pTxLcz1Z3XiJ-qbEelzZ4jDOo6M4?session=0&fife" height="200" width="auto" /><br><br>с 07.00 до 20.00, 15 лир]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/737fuo5978n3vnpfdp16g89fds/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Gp0CeTXzdgaFMrxOf7qbf4KGla4aKN6CVE2j2jSI8QSaS7NPOJOskUcVPzXdqLD0v5a20Drgh6XZ6eNMRrws-7XHd3jbaJfLGl58ZhEddWGpDFKaYPI3ikqe5XsHiRCHU4E28X8SppABTnlgoePI4z7Mi0ISyTao1sbu5pTxLcz1Z3XiJ-qbEelzZ4jDOo6M4?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8055857,38.6301476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каймаклы. Подземный город</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/cn2q6no7k2cbvhgqoa43onimnk/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GHRg_TNcAkEqZHyrJYTNX8OOavdv-CvZDvfZde-9jV58gTAqq3bW1iiZxOwXtVmknfg_VQEiLRlllYtPlHo1aMODnlZzOBPPxTKKuKohYCVYpDLub4jYk3sHqVa7Kp79QD7nF7dGPoiZ1mhS5htz4n-BTbTknU4lcJRhwyDZkT-5IfGPU1zyLSpcBYZFEfIIM?session=0&fife" height="200" width="auto" /><br><br>с 08:00 до 19:00 каждый день, 50 лир]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/cn2q6no7k2cbvhgqoa43onimnk/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GHRg_TNcAkEqZHyrJYTNX8OOavdv-CvZDvfZde-9jV58gTAqq3bW1iiZxOwXtVmknfg_VQEiLRlllYtPlHo1aMODnlZzOBPPxTKKuKohYCVYpDLub4jYk3sHqVa7Kp79QD7nF7dGPoiZ1mhS5htz4n-BTbTknU4lcJRhwyDZkT-5IfGPU1zyLSpcBYZFEfIIM?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.7511612,38.4610088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каньон. Долина Ихлара</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lqcupirp89p01u3lvkenmdjaok/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EOHaUQj7DTdZrexBY6pO88XOOWOSDpFiBKxn4D_c6ghwWV-MUvjIFsIDhdIZ9VU5dS713xYBfiQlA6cS-aPRVKj1iloCHV9b2d_8exivqsQN02ZrrEMNm6MJSdyz1FRkwy4Ai3E-6kxZ88y-iWqOxngB1ieRLZPiIc8fAeIiA2xFdHrisNOGJMJqVphFgBcqc?session=0&fife" height="200" width="auto" /><br><br>каменный каньон глубиной до 150 метров и высеченный в скале монастырь Селиме<br><br>https://tour-turkish.ru/dolina-ihlara/<br><br>проверить по отзывам, что открыта<br>https://www.tripadvisor.com/Attraction_Review-g1069617-d554011-Reviews-Ihlara_Valley-Guzelyurt_Cappadocia.html<br><br><img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/nk3k4shpdegrop6mtqbmlkn4uk/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GIQMwYxSKChX2ab9yABrqWU-_Pjd5v954qL2XcEmuMGvUrhpE1N1wgDJwlOUat0GxioAh4WQp64NB3apgtJBjq64Z_sRYwRiljXW_ZKZK71-IQA3Z6Fu-Z7s2lccr2i48MyssA0UQXkEkzR_J7KlRuFC-1Ax6bSdY7SR1Ikr_-rwAQKWsamS9Jmjz_C9OenxE?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lqcupirp89p01u3lvkenmdjaok/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EOHaUQj7DTdZrexBY6pO88XOOWOSDpFiBKxn4D_c6ghwWV-MUvjIFsIDhdIZ9VU5dS713xYBfiQlA6cS-aPRVKj1iloCHV9b2d_8exivqsQN02ZrrEMNm6MJSdyz1FRkwy4Ai3E-6kxZ88y-iWqOxngB1ieRLZPiIc8fAeIiA2xFdHrisNOGJMJqVphFgBcqc?session=0&fife https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/nk3k4shpdegrop6mtqbmlkn4uk/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GIQMwYxSKChX2ab9yABrqWU-_Pjd5v954qL2XcEmuMGvUrhpE1N1wgDJwlOUat0GxioAh4WQp64NB3apgtJBjq64Z_sRYwRiljXW_ZKZK71-IQA3Z6Fu-Z7s2lccr2i48MyssA0UQXkEkzR_J7KlRuFC-1Ax6bSdY7SR1Ikr_-rwAQKWsamS9Jmjz_C9OenxE?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.306363,38.238506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Долина Ихлара - 2ой (главный) вход</name>
+        <description>здесь начинается 2ой участок до деревни belisirma 3.5 км, самый красивый</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            34.3020359,38.253491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Эрджияс Гора 3917</name>
+        <description>https://cappadociavictoria.com/en/erciyes-ski.html</description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            35.4469869,38.5317854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Водопад. Kapuzbaşı Selalesi Kayseri</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/d48o1ks5p3ua816dpcimukvpkg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FIjukEVQDWrL9ZgZGH2cuSoiCdDVHqrOHOwCtf5oS1c1PKUZb1cCL4M__xZiTxRSAEnUJfuHcPrOp68NrUjlPHHwpm2a_gMiDOegHimLruZxnFAT-1NPGjWesNFHwJb3tSd1vQrkC0ee5bhn-nGjCGfcuovB7wW9B9EZaAtYcLff0H_1RQ6Nu2UBcBQ_ep4ZM?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1502-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/d48o1ks5p3ua816dpcimukvpkg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FIjukEVQDWrL9ZgZGH2cuSoiCdDVHqrOHOwCtf5oS1c1PKUZb1cCL4M__xZiTxRSAEnUJfuHcPrOp68NrUjlPHHwpm2a_gMiDOegHimLruZxnFAT-1NPGjWesNFHwJb3tSd1vQrkC0ee5bhn-nGjCGfcuovB7wW9B9EZaAtYcLff0H_1RQ6Nu2UBcBQ_ep4ZM?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.3933375,37.7742702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Долина Любви-2</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.8328508,38.6383791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zelve Vadisi</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/t5ethiiep13klqcc2hsksrifmk/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GK1IUNLD41x2j4qrUM2kges4XxWfl5vZ7C1YJn9ErRwqWnfPkE2O9nWIAIlZC0XRkISHZHEMV6kJn5JkAfjqs_AopLnaVdS94rwEr6iQh5k0gwEjmUBU0KnUFCO_mqlhIPeGDCY5e7HSnGyHlYXHSn3UVyNStPl7gc8zfUMtjxGaKN4SJed3fEwNj580bGF00?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/t5ethiiep13klqcc2hsksrifmk/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GK1IUNLD41x2j4qrUM2kges4XxWfl5vZ7C1YJn9ErRwqWnfPkE2O9nWIAIlZC0XRkISHZHEMV6kJn5JkAfjqs_AopLnaVdS94rwEr6iQh5k0gwEjmUBU0KnUFCO_mqlhIPeGDCY5e7HSnGyHlYXHSn3UVyNStPl7gc8zfUMtjxGaKN4SJed3fEwNj580bGF00?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.83729,38.634008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Древний город</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/v41v1tfnmsel38qq4e61e1efl4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FjVLKmw8BMlZ4q2KXbNU3l0B5icnbmDlgmxBBsqwYNHGg9DCyZStRmals49SRyidNf70-ZBANuoI_McgS1XAlsAb2z2WOtIAr51cuWzgamzEakzvDGnw9wEgBCkLSJiR0kNoLuvcP1JgxF8vTnncXmC75zksHYhsqCs1-8fE1psLyS8oCcAtyStlSRtU5Jvhg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/v41v1tfnmsel38qq4e61e1efl4/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FjVLKmw8BMlZ4q2KXbNU3l0B5icnbmDlgmxBBsqwYNHGg9DCyZStRmals49SRyidNf70-ZBANuoI_McgS1XAlsAb2z2WOtIAr51cuWzgamzEakzvDGnw9wEgBCkLSJiR0kNoLuvcP1JgxF8vTnncXmC75zksHYhsqCs1-8fE1psLyS8oCcAtyStlSRtU5Jvhg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8449465,38.6522698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Подземный город в Деринкую</name>
+        <description><![CDATA[без выходных с 08.00-19.00<br>вход 60 лир]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            34.7351126,38.3734422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paşabağ Vadisi</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/fenqnhqjvk2tmacs6p3pvieneg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FFngG0lo5gTpqK0OgEoKHYVcUw0eA1Blu7XDFO1UoD0qtDdEf_nEaZRtbZVowcaMWCcWekQsEOx0UAl4-kUJw9BG2oKTsBrMadNAoIUGkiWg1cTM9fne26DmMbp0wALk5iIGo9CbJdUfRis9PbVJdET_rZrBSNCoN1DuP8wVRcwwVq120Q-jR3Wmlj_juqczk?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/fenqnhqjvk2tmacs6p3pvieneg/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FFngG0lo5gTpqK0OgEoKHYVcUw0eA1Blu7XDFO1UoD0qtDdEf_nEaZRtbZVowcaMWCcWekQsEOx0UAl4-kUJw9BG2oKTsBrMadNAoIUGkiWg1cTM9fne26DmMbp0wALk5iIGo9CbJdUfRis9PbVJdET_rZrBSNCoN1DuP8wVRcwwVq120Q-jR3Wmlj_juqczk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8556884,38.6772653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imagination Valley (долина Дервент)</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/cf7i1bsa78r5ig406q4eob9svo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HBmx7yt9c1604rDcINPsV4og3spo1B8foxogEIqUBgDrU-S4LELEiqYGgVZ2We8O53ccNg_h6YfsBdiIQ_SSfpzxPJtNcdlCCRQffurlmbvAyA16Znr29Y4rJc_LZcvy2EqfMQHtHn-bhCBwbHxeuNCiOYqER_LqTEJT1dsMbRK2Gje4rLlao2KDYxls6mhLI?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/cf7i1bsa78r5ig406q4eob9svo/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HBmx7yt9c1604rDcINPsV4og3spo1B8foxogEIqUBgDrU-S4LELEiqYGgVZ2We8O53ccNg_h6YfsBdiIQ_SSfpzxPJtNcdlCCRQffurlmbvAyA16Znr29Y4rJc_LZcvy2EqfMQHtHn-bhCBwbHxeuNCiOYqER_LqTEJT1dsMbRK2Gje4rLlao2KDYxls6mhLI?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8854274,38.6724736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset/Sunrise/Balloons Highest View point in Göreme</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/g8ua3gtbalcugn6fpd5pk11t5g/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G5S3Ohw31NqRa2G1GnWt-Ru7yZ3aTTQZj2rsTEbGBo5OOYPcI86S9LriCctBLw-IBaHBs7iC8RAGLBwyoa5bK6FOyZZNwsNX_gkrSbRZeC53k828OD_SK8ejcaLn2Aevi9zSW5d7KDmjKeEHj7eyx0lNq2GHvoL-3JPKonENLR0ZWvy5Q86FHvBopGja668LM?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/b9ils6hnac5oajf22ppb21a2m0/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E75aQlyRlpWG_8nhMwUeDriuCrZoxbi3IbGpefBIkza6c07Q14-UivTVnJFobZMCy-XIovgJeq3fJEiWikueJ72KQw55xFOI_1RDTs5lWDHITQXbF8W69CZ-ArGVkAcvBVFv_wfdQuq08UnHAk_2pw5Qm4Ix7-OlbZHdgEhrotmsRfXsZRrqI6t9SN_5ijIk8?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/g8ua3gtbalcugn6fpd5pk11t5g/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G5S3Ohw31NqRa2G1GnWt-Ru7yZ3aTTQZj2rsTEbGBo5OOYPcI86S9LriCctBLw-IBaHBs7iC8RAGLBwyoa5bK6FOyZZNwsNX_gkrSbRZeC53k828OD_SK8ejcaLn2Aevi9zSW5d7KDmjKeEHj7eyx0lNq2GHvoL-3JPKonENLR0ZWvy5Q86FHvBopGja668LM?session=0&fife https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/b9ils6hnac5oajf22ppb21a2m0/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E75aQlyRlpWG_8nhMwUeDriuCrZoxbi3IbGpefBIkza6c07Q14-UivTVnJFobZMCy-XIovgJeq3fJEiWikueJ72KQw55xFOI_1RDTs5lWDHITQXbF8W69CZ-ArGVkAcvBVFv_wfdQuq08UnHAk_2pw5Qm4Ix7-OlbZHdgEhrotmsRfXsZRrqI6t9SN_5ijIk8?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8320718,38.641501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goreme Open Air Museum</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.8453547,38.6400491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ortahisar</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/a1bo2u8utg96plu975r12aitac/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GG6FdqSbnS8E2wNiql1zH7VnFlK7Zf83WpibS8YpsPlUDvzNUy9Oft2Raq6Pg8C37PEepbSuKX_HKxzrB1mSr2sRVe-1uD-sYYM4uL6HOxwR2HbNaNsrZh-brd542HskXyidsY29mx-9HEl3T6JfGpk2E1_WUG48n_ZBOd27HBNAMMRaAOc5xKznX6N8RIP20?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/a1bo2u8utg96plu975r12aitac/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GG6FdqSbnS8E2wNiql1zH7VnFlK7Zf83WpibS8YpsPlUDvzNUy9Oft2Raq6Pg8C37PEepbSuKX_HKxzrB1mSr2sRVe-1uD-sYYM4uL6HOxwR2HbNaNsrZh-brd542HskXyidsY29mx-9HEl3T6JfGpk2E1_WUG48n_ZBOd27HBNAMMRaAOc5xKznX6N8RIP20?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.864722,38.620833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Долина Soğanlı</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/l4i7f8k4rmu3u1ftuop9pu2lic/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H5Z9DCEHlYjSqiwhDffPJATst_gd1qInIEbmd2EA0NUI9vOxySyS5b2ssOf80K3pucMBNiQi0DTtOqX2EaHyrdYZbOkjIegla2rPlXvjRpg0aF6CIHQj0F77UQJms-P7o4MhY_MxKS1d9Av-o-CHZAdR2kdJEC2PmL0bl0pcEmKyt1nHcr0Baicnp25izUUn2M?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/l4i7f8k4rmu3u1ftuop9pu2lic/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H5Z9DCEHlYjSqiwhDffPJATst_gd1qInIEbmd2EA0NUI9vOxySyS5b2ssOf80K3pucMBNiQi0DTtOqX2EaHyrdYZbOkjIegla2rPlXvjRpg0aF6CIHQj0F77UQJms-P7o4MhY_MxKS1d9Av-o-CHZAdR2kdJEC2PmL0bl0pcEmKyt1nHcr0Baicnp25izUUn2M?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.963327,38.344983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sobesos Ancient City</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/6lkstl7084c06l06ks8cbrhhgs/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GuK4eME6fAxfxBCrZLksN1ctqWooXrN4i01iUAmwxK1sKGndlx8Z2JGCPzy-fuRt0MtRxHiX0eCUdAPE2pgIW5VClqa4_lGFURQgs4nMRQhzQPwXWyIJDk6Io5tRTvXkHx4pn7iKn-XHD4kNuYCHROTEnoRnB9GZqLClchITJMxkVmPM3QAMvMBhgfx6RpZpE?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/6lkstl7084c06l06ks8cbrhhgs/1682413499000/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GuK4eME6fAxfxBCrZLksN1ctqWooXrN4i01iUAmwxK1sKGndlx8Z2JGCPzy-fuRt0MtRxHiX0eCUdAPE2pgIW5VClqa4_lGFURQgs4nMRQhzQPwXWyIJDk6Io5tRTvXkHx4pn7iKn-XHD4kNuYCHROTEnoRnB9GZqLClchITJMxkVmPM3QAMvMBhgfx6RpZpE?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.9658813,38.4640139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Конец фуникулера. Гора эрджияс</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            35.5004257,38.532889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Конец большого фуникулера. Гора эрджияс</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            35.5075114,38.5380755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Начало фуникулера</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            35.5253677,38.5299644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Начало большого фуникулера. Гора Эрджияс</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            35.526262,38.541293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Отели</name>
+      <Placemark>
+        <name>Wonder of Cappadocia</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.827362,38.6441879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Palace Blue</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            28.9783063,41.0028299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Loc'ada Büyükada]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            29.126165,40.8575927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

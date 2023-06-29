@@ -1,0 +1,3273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Север европы</name>
+    <description/>
+    <Style id="icon-1502-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1502-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1502-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1502-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1502-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-558B2F-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-558B2F-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-558B2F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-558B2F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-558B2F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-558B2F-nodesc-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-558B2F-nodesc-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-757575-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-757575-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-757575">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-757575-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-757575-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-757575-nodesc-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-757575-nodesc-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-757575-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-757575-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-757575-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-BDBDBD-normal">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-BDBDBD-highlight">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-BDBDBD">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-BDBDBD-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-BDBDBD-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Швеция</name>
+      <Placemark>
+        <name>Замок Грипсхольм:</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/pp88ai2ficsoek89sls6ia25ac/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G7gfFio8voVmu4WW06ctyslIfRe8WjLpKmvp9Suo_Xpafk_0Q708vs8Gl7PVdsUG881x2KKJMnfXH4Z88ufxmbkrosaeM5akKuPtpHFcn6_Llcllvjl8Lb21_XOWgKJ0H5P0ImpqNSj-3nv38yeOrNHfTzrU7N1E0bck0Ttbe-IFLDqs6VDzvDZCx6ZB90K1s?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/pp88ai2ficsoek89sls6ia25ac/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G7gfFio8voVmu4WW06ctyslIfRe8WjLpKmvp9Suo_Xpafk_0Q708vs8Gl7PVdsUG881x2KKJMnfXH4Z88ufxmbkrosaeM5akKuPtpHFcn6_Llcllvjl8Lb21_XOWgKJ0H5P0ImpqNSj-3nv38yeOrNHfTzrU7N1E0bck0Ttbe-IFLDqs6VDzvDZCx6ZB90K1s?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.219297,59.2559702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Истад</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/u6rk9f5oq3pcr3t2fr2rum6hg0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ECml2oR9Q_2Pf3gM3lDJvmttU1mrCwnKDZ8gauoBIbgd_SLs9hvF1WF4GcHNTgQpj-3k3LzeTRPN66F9zfAPWiXnISGJ70e5vzp63A9dh1ZiJwl1lT5sVDza-onATQdiMy8KnV3Mbc3NHBYnPvcHoO01tw71w7oc3nkKY3-mqouLGVhb8zDVYFVJqZve0qGeM?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/9rcbne950crkplpd9n5lh3ej3k/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GjIthsTha-dkFZhyUpjjWySezFc4mwe_vtHNjfFxbvtsyBaWSqpuJ4sOXUwUji0A8i4Rdy9AnDQKt3CwYYxQb9ySzQQRoWPHeR8mPNLreJkfP_KF5POJCsvdF_E0eTmXN65aKfcqi-O8C92IvZQck9WI7jpLK0AE_43_e4rYXAhoOY1-jFq2hCeiko1o2Smw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/u6rk9f5oq3pcr3t2fr2rum6hg0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ECml2oR9Q_2Pf3gM3lDJvmttU1mrCwnKDZ8gauoBIbgd_SLs9hvF1WF4GcHNTgQpj-3k3LzeTRPN66F9zfAPWiXnISGJ70e5vzp63A9dh1ZiJwl1lT5sVDza-onATQdiMy8KnV3Mbc3NHBYnPvcHoO01tw71w7oc3nkKY3-mqouLGVhb8zDVYFVJqZve0qGeM?session=0&fife https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/9rcbne950crkplpd9n5lh3ej3k/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GjIthsTha-dkFZhyUpjjWySezFc4mwe_vtHNjfFxbvtsyBaWSqpuJ4sOXUwUji0A8i4Rdy9AnDQKt3CwYYxQb9ySzQQRoWPHeR8mPNLreJkfP_KF5POJCsvdF_E0eTmXN65aKfcqi-O8C92IvZQck9WI7jpLK0AE_43_e4rYXAhoOY1-jFq2hCeiko1o2Smw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.8200308,55.4295051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Карлскруна</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/n0g7hcu6ko8ojhi3svciapfh3o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H5_0jGBcL-90FRDs8KZw3aseFpIexI5R283bbXGH2LUFknWjmb021y0mk061jtUxTEVBtKW3rNUk8Pp1jSZjvjLsqfsS29VAyBU6i8WJi3JbK9q2IzrgOt-5S64TiwhpLCQiPsET1aCWzLFMO_65gm8R3QIYj1YcFP2o-GLd2ozBLzdRsinb__tXIWFXU0Tw?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/n0g7hcu6ko8ojhi3svciapfh3o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H5_0jGBcL-90FRDs8KZw3aseFpIexI5R283bbXGH2LUFknWjmb021y0mk061jtUxTEVBtKW3rNUk8Pp1jSZjvjLsqfsS29VAyBU6i8WJi3JbK9q2IzrgOt-5S64TiwhpLCQiPsET1aCWzLFMO_65gm8R3QIYj1YcFP2o-GLd2ozBLzdRsinb__tXIWFXU0Tw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.5869,56.161224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Лунд</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3b0hr8o44v0uguvjjc5dc5tbbc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FQT6XYtt3jRTURwKLzwYrRMMj4NYRQkjFCN-rZYOcwA-OpuWTJJIj7T6bWopI9lmxq_TQggz0XD_XXq4ZhHpqMeOeQwfv32vdGEzhqMD7euh0YNqxKjUVbHltGt7bEZH1R6Lz4RdHgkSn61Y7PNNDCG4qaZdoMIgNIjkx7AoCRkJijGcg_O9Jw5W0UuoLlog?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ek25dmvr23duf9mp8nvn47ka70/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EZdYYyTCVrWNTu1nekDqPjp2a-1pHX4cTmsrVfkodPSCqVcRxyePQhOQNGHRCCucR3wk9i1aIJ6AqnJ8Yyu6B5W8bOMW8dGAsypEUBjbXdMzhgYFoBVIu0ex3BZeyu-HijfkbALlD0btaeAm60GCq6tu_PDZjQ_EUggDQkETjtbKysDAs5HgoEubtDgylqoQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/3b0hr8o44v0uguvjjc5dc5tbbc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FQT6XYtt3jRTURwKLzwYrRMMj4NYRQkjFCN-rZYOcwA-OpuWTJJIj7T6bWopI9lmxq_TQggz0XD_XXq4ZhHpqMeOeQwfv32vdGEzhqMD7euh0YNqxKjUVbHltGt7bEZH1R6Lz4RdHgkSn61Y7PNNDCG4qaZdoMIgNIjkx7AoCRkJijGcg_O9Jw5W0UuoLlog?session=0&fife https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ek25dmvr23duf9mp8nvn47ka70/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EZdYYyTCVrWNTu1nekDqPjp2a-1pHX4cTmsrVfkodPSCqVcRxyePQhOQNGHRCCucR3wk9i1aIJ6AqnJ8Yyu6B5W8bOMW8dGAsypEUBjbXdMzhgYFoBVIu0ex3BZeyu-HijfkbALlD0btaeAm60GCq6tu_PDZjQ_EUggDQkETjtbKysDAs5HgoEubtDgylqoQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.1910073,55.7046601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Норрчёпинг</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/gpo51m3f730acknetkmq5dlbh4/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EaIBT85Ak8iGyD0LT3PBa-VryV8l1lLrSiN4YxDKBv839yIMYoZ6aFBGmB_uDh77pYmYRkYbIyTCOpPDjDm03Rdcf-8HKj1yxREElMrZG2jwtGTjK8gTuw7iiV73sfRfqiqy5Wa9_s8sFurGtD3b4l9VJWgM8yBfKQSO2PArGkcNR8xab_vxVa6fJlRn8EOw?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/6n9d3bvd024q3ujdspalrjign4/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FFiVUFtEG6upW1jiXjzDr24K8IZVSsdUOj5G_kreDA9UJRb8Vu2CfIAy9nNHczOUyiToMIn6I_Qh8R9zUBVeyZUCu5EIbM0cNxgJ6j9gR5yD_Ujcx04Aby8gvKfFwDX0PJHdBXT5BqCIb6KkaLg0zF6j0gUkZITeluUfYDqo23n6HvEyWKPXP8ezJfhIEROQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/gpo51m3f730acknetkmq5dlbh4/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EaIBT85Ak8iGyD0LT3PBa-VryV8l1lLrSiN4YxDKBv839yIMYoZ6aFBGmB_uDh77pYmYRkYbIyTCOpPDjDm03Rdcf-8HKj1yxREElMrZG2jwtGTjK8gTuw7iiV73sfRfqiqy5Wa9_s8sFurGtD3b4l9VJWgM8yBfKQSO2PArGkcNR8xab_vxVa6fJlRn8EOw?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/6n9d3bvd024q3ujdspalrjign4/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FFiVUFtEG6upW1jiXjzDr24K8IZVSsdUOj5G_kreDA9UJRb8Vu2CfIAy9nNHczOUyiToMIn6I_Qh8R9zUBVeyZUCu5EIbM0cNxgJ6j9gR5yD_Ujcx04Aby8gvKfFwDX0PJHdBXT5BqCIb6KkaLg0zF6j0gUkZITeluUfYDqo23n6HvEyWKPXP8ezJfhIEROQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.192421,58.587745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей экспериментов Тома Тита</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            17.6231858,59.2003541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Уппсала</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rgjitqrpsnphrm0os84e9bq9fs/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HIReKLukDKHtWN6Uc_LOMirp7phZxiCd4mFgFpsxgLU9y6Wl_7ja0-Xv9qvO7h433lnihvdweULYy-bEqYSltZ2kTUnpyvmaF95BY8kiuv9CMRLugGXvX3Jq1D7kFP8KUU28rnFl4RY7KlCaB4qly3rM3Ihzj5-__MOQgluuOP1mI3jw7d-UI79F5qiVoOqI8?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/rgjitqrpsnphrm0os84e9bq9fs/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HIReKLukDKHtWN6Uc_LOMirp7phZxiCd4mFgFpsxgLU9y6Wl_7ja0-Xv9qvO7h433lnihvdweULYy-bEqYSltZ2kTUnpyvmaF95BY8kiuv9CMRLugGXvX3Jq1D7kFP8KUU28rnFl4RY7KlCaB4qly3rM3Ihzj5-__MOQgluuOP1mI3jw7d-UI79F5qiVoOqI8?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.6389267,59.8585638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emporia</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lmtpq39r4n7p2gefs5p48oro10/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GXAmD-sWmFsU4suP99mMPYkYw8MQhaRVRN4n1qS7zjEY-jJy1vwUIUxV5w-rV7eKpInSRlCVqdIU59JF1rQCuQ_asatW6LEWd1ZvIl2vG7y_RP4d-RGxvNoJvuZp3_2ZpSkmF0t2Uk9AaMtP_5LifP71CxsPwVRAAP07bF_0MkNz34qfBqFFF7czpaM6gGDg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lmtpq39r4n7p2gefs5p48oro10/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GXAmD-sWmFsU4suP99mMPYkYw8MQhaRVRN4n1qS7zjEY-jJy1vwUIUxV5w-rV7eKpInSRlCVqdIU59JF1rQCuQ_asatW6LEWd1ZvIl2vG7y_RP4d-RGxvNoJvuZp3_2ZpSkmF0t2Uk9AaMtP_5LifP71CxsPwVRAAP07bF_0MkNz34qfBqFFF7czpaM6gGDg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.9724972,55.5645143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Прогулочные катеры KD Ticket Office Köln</name>
+        <description><![CDATA[https://www.getyourguide.com/-l19/-tc48?cmp=ga&cq_src=google_ads&cq_cmp=6656466899&cq_con=79852528940&cq_term=cologne%20boat%20tour&cq_net=g&cq_plt=gp&campaign_id=6656466899&adgroup_id=79852528940&target_id=aud-607387271753%3Akwd-338817146616&loc_physical_ms=9062287&match_type=b&ad_id=387889119106&keyword=cologne%20boat%20tour&device=c&partner_id=CD951&gclid=Cj0KCQjwtO-kBhDIARIsAL6LordY9h-Cvk7Yb9cYYCJif2no-OCgRz3JAPaMGMwrAaav3JPcA6CT2rMaAqDBEALw_wcB&dur=0, <br><br><br>https://www.k-d.com/en/cruises/panorama-round-trip-cologne ]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            6.9629724,50.9419983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KD Ticket Office Düsseldorf</name>
+        <description>https://www.k-d.com/en/cruises/panorama-round-trip-duesseldorf</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            6.7703984,51.226966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Нидерланды</name>
+      <Placemark>
+        <name>Зволле</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/kg4vrg5jg1h5l1ism19of06n8s/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FqVfFT12_FrDsD_V6UMjBqF0oW-UJsguZTZQQHDlKMXSxADRLz9zbe3eTYt2holK1xvEIw_3Ull-hy6JcYT9Hi5oPyUz2CjwUPN5Jrt-04vBAoGkL5mPMnC_d4MpWoXDjzhhJyLBDUPpexD1vaS_kneCd_sznimV2jeU1hXxajh_lzNc2wdjTM7fOribSMIw?session=0&fife" height="200" width="auto" /><br><br>https://travelask.ru/netherlands/zwolle/places<br><br><img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lug4ss0ke1d8gepu56p4v2b7vo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Exlg8aRQJ6nvI_E3_lVOZ3MZJbPQtAeWJ8KxjQobvV3CdPvYlBpw1LjyoOfviBIRU8py4KKmgwbLypwGE_hPJIejzQFxcw0rEWOs6ySc6fV5DLgrG9krvsRrMEIiAK8WGReTgIvlAbxlg8G9wZ-d0c2hgCIbeEpPNi0E0jy17qAIBO5c6m8YFYtp4DJetCMog?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/kg4vrg5jg1h5l1ism19of06n8s/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FqVfFT12_FrDsD_V6UMjBqF0oW-UJsguZTZQQHDlKMXSxADRLz9zbe3eTYt2holK1xvEIw_3Ull-hy6JcYT9Hi5oPyUz2CjwUPN5Jrt-04vBAoGkL5mPMnC_d4MpWoXDjzhhJyLBDUPpexD1vaS_kneCd_sznimV2jeU1hXxajh_lzNc2wdjTM7fOribSMIw?session=0&fife https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lug4ss0ke1d8gepu56p4v2b7vo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Exlg8aRQJ6nvI_E3_lVOZ3MZJbPQtAeWJ8KxjQobvV3CdPvYlBpw1LjyoOfviBIRU8py4KKmgwbLypwGE_hPJIejzQFxcw0rEWOs6ySc6fV5DLgrG9krvsRrMEIiAK8WGReTgIvlAbxlg8G9wZ-d0c2hgCIbeEpPNi0E0jy17qAIBO5c6m8YFYtp4DJetCMog?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.079408,52.5178467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гронинген</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/001qtlvsbtq1croh3lgf4piom8/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F-prwwfBCMFC0KVaSiiEUF9MQpVQ0hjayDBXJEUBezp5isc7zAmqJukwQ96JF4JYBjlMJX8e-2SCn6PV228KFIbzuMznKoi-nCmx6MNA5qjT3dLPIIMK6a1C8VSAsPlzCCUQPPYamMK7rvE52TXgm3bt5GMr1BgrK832s-cJQrf0R40egIze0NCp3ugPFB24s?session=0&fife" height="200" width="auto" /><br><br>https://traveller-eu.ru/groningen<br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/iijtimk7t11uk6m1m4rg2jf7ik/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EsIHse10LVGXDrmvZuTAMoqahNUQUwA3TrBC64haI3tBqqEyRv36Y28UNDjINxHx0OmoQar6v5BSAWv4nECbTTmppkptKOSuhyYdA5CEhFFPfohjOOxHl1YxovvNmOsJQOOf9dFX304jomz1yjNdwtSbj_nlkaAmYDrWorwgndUfB4fLiXzu_qvU35nqO_Xg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/001qtlvsbtq1croh3lgf4piom8/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F-prwwfBCMFC0KVaSiiEUF9MQpVQ0hjayDBXJEUBezp5isc7zAmqJukwQ96JF4JYBjlMJX8e-2SCn6PV228KFIbzuMznKoi-nCmx6MNA5qjT3dLPIIMK6a1C8VSAsPlzCCUQPPYamMK7rvE52TXgm3bt5GMr1BgrK832s-cJQrf0R40egIze0NCp3ugPFB24s?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/iijtimk7t11uk6m1m4rg2jf7ik/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EsIHse10LVGXDrmvZuTAMoqahNUQUwA3TrBC64haI3tBqqEyRv36Y28UNDjINxHx0OmoQar6v5BSAWv4nECbTTmppkptKOSuhyYdA5CEhFFPfohjOOxHl1YxovvNmOsJQOOf9dFX304jomz1yjNdwtSbj_nlkaAmYDrWorwgndUfB4fLiXzu_qvU35nqO_Xg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5741717,53.2006259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Харлем</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/pkcrvvrvrkcfmarqeve36tdofc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H7OO4Ng2QsaJW4JatQiyXPxZh8Ewm7U70PtdGK2Jll4YBotiVzSQOHiZ7oV3hqJquHm-4rt9VEwvlfhhgJhcKiwgPFUEG1Vcv43_EtW4jC5OfkAgiJeaPAk_-fnLvtaczXxYiCPSlfbIWGXt5AIJBtaPZju-ODCV8vksXs4avCy3tviw1oyrH1e_FoG_-JZ0Y?session=0&fife" height="200" width="auto" /><br><br>https://traveller-eu.ru/kharlem]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/pkcrvvrvrkcfmarqeve36tdofc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H7OO4Ng2QsaJW4JatQiyXPxZh8Ewm7U70PtdGK2Jll4YBotiVzSQOHiZ7oV3hqJquHm-4rt9VEwvlfhhgJhcKiwgPFUEG1Vcv43_EtW4jC5OfkAgiJeaPAk_-fnLvtaczXxYiCPSlfbIWGXt5AIJBtaPZju-ODCV8vksXs4avCy3tviw1oyrH1e_FoG_-JZ0Y?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.6449013,52.3767096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Зандам</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/7sf0o92ep7nc66go8uotimn814/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H_MAePUiHX9w9hRq6K-9xDCGIBqRJFAYQU-ZYuUCx2JIG6q3MZz40wKgRdGjdBTnrFWDgjbdaff4G647SEZp7IBoAHnyJGMpApsWZr9TnDdIkEe0lnnUak_XZ_czuS6gPv_2Q2fMATr5NmUlZqSl70YC0tx7FF68bLGs9W7R0KwEfYAawvt509gWTQZ1Gobw?session=0&fife" height="200" width="auto" /><br><br>https://kolllak.livejournal.com/55562.html<br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/s7rihrmvqva4naocaete4fraoc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Ea_AMOKBXrJ1JUhR5CC1ev-RhCqXYw7OJnqg1pUMPMbemDuw9JOnYkIVe3bzRJbfl3LTPtgTWqxhq_6tBT48DmLtrotjcqM0a94Z0bMVJXeQbDxovkkWDCXdDECYSCRy0FXRebo9q_1r2buBnsWRWjfCBfqfySxuYIk34cWR98knPeJTPj1jfYfOj4DQWqaw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/7sf0o92ep7nc66go8uotimn814/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H_MAePUiHX9w9hRq6K-9xDCGIBqRJFAYQU-ZYuUCx2JIG6q3MZz40wKgRdGjdBTnrFWDgjbdaff4G647SEZp7IBoAHnyJGMpApsWZr9TnDdIkEe0lnnUak_XZ_czuS6gPv_2Q2fMATr5NmUlZqSl70YC0tx7FF68bLGs9W7R0KwEfYAawvt509gWTQZ1Gobw?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/s7rihrmvqva4naocaete4fraoc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Ea_AMOKBXrJ1JUhR5CC1ev-RhCqXYw7OJnqg1pUMPMbemDuw9JOnYkIVe3bzRJbfl3LTPtgTWqxhq_6tBT48DmLtrotjcqM0a94Z0bMVJXeQbDxovkkWDCXdDECYSCRy0FXRebo9q_1r2buBnsWRWjfCBfqfySxuYIk34cWR98knPeJTPj1jfYfOj4DQWqaw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.8291992,52.4420399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Зансе-Сханс</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/nc3bco1816nubcn6dgqfte7j2o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Glnuj9JVXgAk0ypTY2NCD3XkI5ezaory7Md00pHolj8841z3eyjxeJdGPPRGDD7_fssq9H6VUhAabHFGjJ6Jfr0oc5cC4LEtUC9kBFy38EK3B_0BFTqJJqqAVbh0YsXvtW09DLBmbgXMUdrA2myqIiyna91DIEQjziszYwozxOLS-gpWpK5K8q1lwbsqokfxg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/nc3bco1816nubcn6dgqfte7j2o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Glnuj9JVXgAk0ypTY2NCD3XkI5ezaory7Md00pHolj8841z3eyjxeJdGPPRGDD7_fssq9H6VUhAabHFGjJ6Jfr0oc5cC4LEtUC9kBFy38EK3B_0BFTqJJqqAVbh0YsXvtW09DLBmbgXMUdrA2myqIiyna91DIEQjziszYwozxOLS-gpWpK5K8q1lwbsqokfxg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.8218542,52.472886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Кёкенхоф</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/7tva7n7ffqmsfiil2vbun19e00/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E5PDoa1lJFYjVCpNgnPS_Os6qv4zDdBAFuWJNdt4rPBuTbsTPNnesAJSutw-KB_HSgENUWMnh27gN8bRKSByHFENA7BUz9Bf3Z5BJJ02wANQN_o5JP7XX0TawSVZlcr0sig7r7UNypqAS6BE5IkPnv5LiQHkpRXyuuIAuDZIwIy_6S2QJu1lootntmxxLchQ?session=0&fife" height="200" width="auto" /><br><br>https://travelq.ru/keukenhof/#:~:text=%D0%9B%D1%83%D1%87%D1%88%D0%B5%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D1%81%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B0%20%D0%9A%D1%91%D0%BA%D0%B5%D0%BD%D1%85%D0%BE%D1%84&text=%D0%92%20%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D1%85%20%D0%BF%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BE%D0%BD%D0%B0%D1%85%20%D1%81%20%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B3%D0%BE,%D0%B2%20%D0%BC%D0%B0%D0%B5%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%BE%20%D1%83%D0%B6%D0%B5%20%D0%BE%D1%82%D1%86%D0%B2%D0%B5%D0%BB%D0%B8.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/7tva7n7ffqmsfiil2vbun19e00/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E5PDoa1lJFYjVCpNgnPS_Os6qv4zDdBAFuWJNdt4rPBuTbsTPNnesAJSutw-KB_HSgENUWMnh27gN8bRKSByHFENA7BUz9Bf3Z5BJJ02wANQN_o5JP7XX0TawSVZlcr0sig7r7UNypqAS6BE5IkPnv5LiQHkpRXyuuIAuDZIwIy_6S2QJu1lootntmxxLchQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.5469336,52.2697087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[A'DAM Lookout + качели]]></name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/qd17k97k03h97c4v0nlo4cit7o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F0_sBaYwxHa7xTiu9zs-3bcZRbhqCvNpdqfS1mI4uMmyB-cO49L0va3VMJZ_DK9kk_tyWl40XPtIg5B-mLa1St0EL1SCXY0cEoS3TxGfynUw3bFygS2PdIyH5-3XBCqwy6KI8mPd3-_39cwNBnSoZrrjpMjpkHUiukFCpd-JtGWkarJVXEZD_Vf6Pr8qVPBw?session=0&fife" height="200" width="auto" /><br><br>https://www.tripadvisor.ru/Attraction_Review-g188590-d10106528-Reviews-A_dam_Lookout-Amsterdam_North_Holland_Province.html]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/qd17k97k03h97c4v0nlo4cit7o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F0_sBaYwxHa7xTiu9zs-3bcZRbhqCvNpdqfS1mI4uMmyB-cO49L0va3VMJZ_DK9kk_tyWl40XPtIg5B-mLa1St0EL1SCXY0cEoS3TxGfynUw3bFygS2PdIyH5-3XBCqwy6KI8mPd3-_39cwNBnSoZrrjpMjpkHUiukFCpd-JtGWkarJVXEZD_Vf6Pr8qVPBw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.9023415,52.3838754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Pier SkyView. Колесо обозрения на море</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/srg9flu2dog7ugs8cr5rmue4mo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HFTqHRyPMsom7IyDvHjg2ewuH2CvLZ0Wc7Za5mJfh5dA3av5ko5bcc3mL4LvkZJKPU4ZIReybIn19o2Qsx21jg04VJz7rtF0Cw0rnNmCdb7Or2m0Q0CUnRAC1Aw48MpzfhvFMXYk-WO_tz5U2FpOM6ty5eLYgy4blsWS3zyr2_wIMgzJoaJxyz5aTTk_C_E_Q?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/srg9flu2dog7ugs8cr5rmue4mo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HFTqHRyPMsom7IyDvHjg2ewuH2CvLZ0Wc7Za5mJfh5dA3av5ko5bcc3mL4LvkZJKPU4ZIReybIn19o2Qsx21jg04VJz7rtF0Cw0rnNmCdb7Or2m0Q0CUnRAC1Aw48MpzfhvFMXYk-WO_tz5U2FpOM6ty5eLYgy4blsWS3zyr2_wIMgzJoaJxyz5aTTk_C_E_Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.2810309,52.1173504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Утрехт</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/10s332tcpcn4bqpb2irqmo8mig/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G-RTt6LIG8ojr5KG7EmZoYzbOlwxOO3U0MS0HRZ3YsIFAj3zYGLpXWlIqHx6kMbwksG4dzd-QtGvX4ZeLNZMSHCLgA1V6KTxA6TwMCA8dH4dzdv-pu258rfznHUSUyK-cKNXRc2BhJeUfqyc7QGOmXaremVCNUSkAGyReBAZCQVYe8n3c5-7X2yb9uvilU2Q?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/9i1b7lia6fe935nsh9npvind6o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HGG_VLNinlDtTLJURh__X_KMpqDHJwP7Z6uPxt1EwVWowQVVyENRTnDwx96j_4SEaSy4WmrYTXuSVWgZtBQ4GZo_PToISz-VW3-poz_QNX4YYiMT9qVcQqpv5nMTFGNKdbb8M4gsDVabGVoicqoY3FA360saDnSrd8vAzv2yANPjOAco6yyCmUV3qzzVKDRw?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/elgrqdqbb746mdjfusl39q5a4o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FMYGDhFSzOH1NjWh9zE98T2CeTeBbreH4BrAqPgG0rUiM9J_225XC-HhNi-wJ7XIuB5372PrmuaSMuK3DoOGJhPYw-JX-Q3IKMuQ3R-tkE5HPioNN5PKTS_G0dSWnuznvesabHLd64hiRa52jexJOqMVpPAPQmkVxwICz8S8eIcNK2Hjm3RBxBJ7zDVNOi8g?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/10s332tcpcn4bqpb2irqmo8mig/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G-RTt6LIG8ojr5KG7EmZoYzbOlwxOO3U0MS0HRZ3YsIFAj3zYGLpXWlIqHx6kMbwksG4dzd-QtGvX4ZeLNZMSHCLgA1V6KTxA6TwMCA8dH4dzdv-pu258rfznHUSUyK-cKNXRc2BhJeUfqyc7QGOmXaremVCNUSkAGyReBAZCQVYe8n3c5-7X2yb9uvilU2Q?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/9i1b7lia6fe935nsh9npvind6o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HGG_VLNinlDtTLJURh__X_KMpqDHJwP7Z6uPxt1EwVWowQVVyENRTnDwx96j_4SEaSy4WmrYTXuSVWgZtBQ4GZo_PToISz-VW3-poz_QNX4YYiMT9qVcQqpv5nMTFGNKdbb8M4gsDVabGVoicqoY3FA360saDnSrd8vAzv2yANPjOAco6yyCmUV3qzzVKDRw?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/elgrqdqbb746mdjfusl39q5a4o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FMYGDhFSzOH1NjWh9zE98T2CeTeBbreH4BrAqPgG0rUiM9J_225XC-HhNi-wJ7XIuB5372PrmuaSMuK3DoOGJhPYw-JX-Q3IKMuQ3R-tkE5HPioNN5PKTS_G0dSWnuznvesabHLd64hiRa52jexJOqMVpPAPQmkVxwICz8S8eIcNK2Hjm3RBxBJ7zDVNOi8g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1214201,52.0907374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Де-Хаар</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/oq0fvts9l9uqeo96thbab5kfks/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FvROCp_5ZYobHqgm3o4bnk6b8u1ham5gpdnsbQVhQw8lxHdXPvU3onUU7-BzRSsgxB4DXvmQK_B8tODDbtuki0UuQSS0DR22Po1TkqyY70114pT9apj77P-b70T6FYTOHfQK7V4MLvrIVnXyTNVuPeXFKr_S9KJ0Ji0LRDuRTm9wo9xJgOrpIc5r1E6LkboA?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/oq0fvts9l9uqeo96thbab5kfks/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FvROCp_5ZYobHqgm3o4bnk6b8u1ham5gpdnsbQVhQw8lxHdXPvU3onUU7-BzRSsgxB4DXvmQK_B8tODDbtuki0UuQSS0DR22Po1TkqyY70114pT9apj77P-b70T6FYTOHfQK7V4MLvrIVnXyTNVuPeXFKr_S9KJ0Ji0LRDuRTm9wo9xJgOrpIc5r1E6LkboA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.9860063,52.1214529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Де-Хоге-Велюве</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/8vj6uqm5l5rlq73l7pr4jc8j2s/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GWBxGZaX_pdBdG-GnDBN0f0Lh3zwzLR1F9a0SmsHXPBgVWfi5abyrVzd6tUpCcK8cc_qdw_0PSyK0O-WFcZi9khWW47VpUJQDDUAhbkEAMeOYMtumHNxakXBPdR-wuAENIwCPKJ-LnwAWWVQCyzFs74NincM-xSHVeX-tm7aVQx38lxnJ4eldustAXnYEejw?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/8vj6uqm5l5rlq73l7pr4jc8j2s/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GWBxGZaX_pdBdG-GnDBN0f0Lh3zwzLR1F9a0SmsHXPBgVWfi5abyrVzd6tUpCcK8cc_qdw_0PSyK0O-WFcZi9khWW47VpUJQDDUAhbkEAMeOYMtumHNxakXBPdR-wuAENIwCPKJ-LnwAWWVQCyzFs74NincM-xSHVeX-tm7aVQx38lxnJ4eldustAXnYEejw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.8324892,52.078716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гитхорн. Деревня без дорог</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/kp3qg9oafslo9j585n9devbe6o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EnGXEkQ3rEHO1sUNhkoZ5qO0z68Z4fPgcwR3i0G9pLC4m3840lLRxG3Z1XXVclFHBBanZN-_hg0XP37i4w6stEc0dtRa-vevS2XmUC6mpt6_6TR9uAnZD73XC9y3LmxGVYowRIeDSD7-Vqp93kyquFgGAWKeeaDIurRrcVOkUfoOUaSlBvTciCl7psB5mR-sM?session=0&fife" height="200" width="auto" /><br><br>https://guruturizma.ru/derevnya-gitxorn/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/kp3qg9oafslo9j585n9devbe6o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EnGXEkQ3rEHO1sUNhkoZ5qO0z68Z4fPgcwR3i0G9pLC4m3840lLRxG3Z1XXVclFHBBanZN-_hg0XP37i4w6stEc0dtRa-vevS2XmUC6mpt6_6TR9uAnZD73XC9y3LmxGVYowRIeDSD7-Vqp93kyquFgGAWKeeaDIurRrcVOkUfoOUaSlBvTciCl7psB5mR-sM?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.0779779,52.7401779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Алкмар</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/oo5celf3i2hnbuql21clcvjbeo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HlhsbAJh07UIe6zwvEBE7zOOxw1ssJgTrLfeEDx7PKZyNXrgyvrp6BhcB1K-YKMH3ITb6MC4vh5QsQc4kxX5UfjWmYb6RuI3zyHt4JntHG_HI1d6A8S1ExEYhgy2xOGsduojYYUSzizUes0SdSpCX8dNibM2HXQS98tHU-mt8YtgCBCpHG0JcKACYxQIwDyw?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/fmim4qs6ap3feha61osmt7r41k/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G2ASVoiygCFfl_DnRdMKdApK3QPRG1aTl3GG5rPX-NDM7pPfJzIImB8bKR-JVnEdu6gavTpsQhKKUGuGqbr8yo7k97I7ax4NwgsSqIUt8BjlwU-aJP9kW1NvO_Yh9ysX5p55bPQh9yR-lWbBlQse7m_uYwQW3io-zkpQzOYT1_8qeSKZnUq5dnlATXQaig1w?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/oo5celf3i2hnbuql21clcvjbeo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HlhsbAJh07UIe6zwvEBE7zOOxw1ssJgTrLfeEDx7PKZyNXrgyvrp6BhcB1K-YKMH3ITb6MC4vh5QsQc4kxX5UfjWmYb6RuI3zyHt4JntHG_HI1d6A8S1ExEYhgy2xOGsduojYYUSzizUes0SdSpCX8dNibM2HXQS98tHU-mt8YtgCBCpHG0JcKACYxQIwDyw?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/fmim4qs6ap3feha61osmt7r41k/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-G2ASVoiygCFfl_DnRdMKdApK3QPRG1aTl3GG5rPX-NDM7pPfJzIImB8bKR-JVnEdu6gavTpsQhKKUGuGqbr8yo7k97I7ax4NwgsSqIUt8BjlwU-aJP9kW1NvO_Yh9ysX5p55bPQh9yR-lWbBlQse7m_uYwQW3io-zkpQzOYT1_8qeSKZnUq5dnlATXQaig1w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.7533754,52.6323813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мост Питон</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/psdm1fn8jv4nempd28rj8j4jfo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EN1lam9D5IB1Z-gSYG_jyT8cO_Gn67MH-Ap4FVatIe72t5bPUiRCp3iHME4fmLPxpJvKI5SL4gDP4qeU8N34CCTY4znMbVgUdTJlWcNdBxqECqGpg2pirJU1f8se8MTuQ2B6fNkPagCdK0bsc9nf01uNh9UssEEnsiAyQy7BkZo1P1WkCMwLH6Jy0S6S8xCA?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/psdm1fn8jv4nempd28rj8j4jfo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EN1lam9D5IB1Z-gSYG_jyT8cO_Gn67MH-Ap4FVatIe72t5bPUiRCp3iHME4fmLPxpJvKI5SL4gDP4qeU8N34CCTY4znMbVgUdTJlWcNdBxqECqGpg2pirJU1f8se8MTuQ2B6fNkPagCdK0bsc9nf01uNh9UssEEnsiAyQy7BkZo1P1WkCMwLH6Jy0S6S8xCA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.9488986,52.373207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Отель бочка. Hotel de Vrouwe van Stavoren</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/a5qjfdhil73mo1nosfd4aov8ic/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GfoRJvd15gZ7nPdoOQqy9QRFe9gqW_5dlTEixztsAfSoc420hpgTcziUwKhnK6m4AhjyM8twRbjshWdzXbwuyONscOV3wq6UpxT-2-8xdAir6QMmuC6aGoiW_oFzaIYbTJyMIMLL9z8uVaeKyEVxsF3epgf8jjELgVgeIgtKqnbsNKKKviKUj8jvdEemKL-w?session=0&fife" height="200" width="auto" /><br><br>https://www.booking.com/hotel/nl/devrouwevanstavoren.ru.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaIgBiAEBmAEhuAEXyAEM2AEB6AEB-AELiAIBqAIDuALYy7ueBsACAdICJGM2NjUyZjBhLTU5NTUtNDU2Zi1hMzVjLTBjNWRlYjMwMTE0Y9gCBuACAQ&sid=7efb1db8126843df635c5dbb0170da2b&all_sr_blocks=1123302_349864721_0_1_0;checkin=2023-05-10;checkout=2023-05-11;dest_id=11233;dest_type=hotel;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=1123302_349864721_0_1_0;hpos=1;matching_block_id=1123302_349864721_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=1123302_349864721_0_1_0__14340;srepoch=1674503657;srpvid=17b58bf37e2b032a;type=total;ucfs=1&#_]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/a5qjfdhil73mo1nosfd4aov8ic/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GfoRJvd15gZ7nPdoOQqy9QRFe9gqW_5dlTEixztsAfSoc420hpgTcziUwKhnK6m4AhjyM8twRbjshWdzXbwuyONscOV3wq6UpxT-2-8xdAir6QMmuC6aGoiW_oFzaIYbTJyMIMLL9z8uVaeKyEVxsF3epgf8jjELgVgeIgtKqnbsNKKKviKUj8jvdEemKL-w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.3584285,52.885794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мёйдерслот</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/pfljn4lq55akg1737im538g0tk/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FGHF1GkIfJo0Wo0LZTycGRCl4waUGCM_k1Z47ISVmf5Qc9GJyN3Ghrpss7PChIIXhTB3OVdwecOwGGFwaj99tyRleVdn4JhHJwDfgq6lLqN-x05n0Vs_yDJPCFFCllfpQgCrjttcyqrGP4zbCJRGU3-jgrakhgcCV_ewFkgDrRGUqnokesGEUQmIK1Li0QOio?session=0&fife" height="200" width="auto" /><br><br>https://www.orangesmile.com/extreme/ru/impressive-castles-onwater/castle-muiderslot.htm]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/pfljn4lq55akg1737im538g0tk/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FGHF1GkIfJo0Wo0LZTycGRCl4waUGCM_k1Z47ISVmf5Qc9GJyN3Ghrpss7PChIIXhTB3OVdwecOwGGFwaj99tyRleVdn4JhHJwDfgq6lLqN-x05n0Vs_yDJPCFFCllfpQgCrjttcyqrGP4zbCJRGU3-jgrakhgcCV_ewFkgDrRGUqnokesGEUQmIK1Li0QOio?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0714226,52.3343272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мост Slauerhoffbrug (Flying Drawbridge)</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/r0f7p1drq8irtf9vrui3v7nitg/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H12OpUM7G-MBLoPwJXenI3-72NxNm5m7WQKB0Iug9sg0oNi-LcmecY9s03nWLfOajkFmawLw00hzlEs4PfuMoRK8INgVgaps6XP5Kx-rNBlmTS0web0nIxRCK1OQEv7WGBTpQyafQRC0UWCVzbKlefVC8Q0SPsDDvg_au2GAD3EpAo61GcsZtxIGAN64GJvw?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/r0f7p1drq8irtf9vrui3v7nitg/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-H12OpUM7G-MBLoPwJXenI3-72NxNm5m7WQKB0Iug9sg0oNi-LcmecY9s03nWLfOajkFmawLw00hzlEs4PfuMoRK8INgVgaps6XP5Kx-rNBlmTS0web0nIxRCK1OQEv7WGBTpQyafQRC0UWCVzbKlefVC8Q0SPsDDvg_au2GAD3EpAo61GcsZtxIGAN64GJvw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.7658167,53.1986181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Havenkraan Harlingen (379 евро)</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/djbdialrfp0h2am1k0os07msj8/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F8ExsfSJnaBZkHuBosXkBXsHNyaUujCVkKw6Swzo16A20vkskJwo-8N-KTy30xd1-bFdzWA_j0Kcw47ETEFrC8oRZTSMhgLHz0RIMvzzLLe5HftizOXmlxBDikEl4kvUDZ5ECGVDcmGsxDU5HAp8BdVty-XCupzW4b7TQ2KiLpdPKC9y_QkF_KT0nz28YCfg?session=0&fife" height="200" width="auto" /><br><br>https://www.havenkraan.nl/en/booking/]]></description>
+        <styleUrl>#icon-1899-BDBDBD</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/djbdialrfp0h2am1k0os07msj8/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-F8ExsfSJnaBZkHuBosXkBXsHNyaUujCVkKw6Swzo16A20vkskJwo-8N-KTy30xd1-bFdzWA_j0Kcw47ETEFrC8oRZTSMhgLHz0RIMvzzLLe5HftizOXmlxBDikEl4kvUDZ5ECGVDcmGsxDU5HAp8BdVty-XCupzW4b7TQ2KiLpdPKC9y_QkF_KT0nz28YCfg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.4101915,53.1741251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Волендам</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0727015,52.4968694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Бремен</name>
+      <Placemark>
+        <name>район Шноор</name>
+        <description>Что посмотреть в Бремене будет интересно как взрослому человеку, так и ребенку? Средневековый центральный район города с его крохотными сувенирными лавками, уютными ресторанчиками и миниатюрными дом иками. Даже отели в Бремене, открытые в Шноре, выглядят так, словно их создавали для лилипутов. Вдоль улочек расставлены цветочные горшки. Цветы украшают также окна каждого здания.</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            8.8092117,53.0729878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рыночная площадь Бремена</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/upirqabcmrl3bfikou6dbb3cps/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ED1PAR5DBnOPe-ddOlThANA664soNOXqUFgdHH2V7W1XmaV-2F72x85oytNjdi1OWnlRzSw14LMgNH08RMDyxRHeHUaz9PjEhH0ZYjAMzWN84pVsswCE5o5bMQI8WW1bJ-Gr2ycK5MnEqPFUlFyCW_i7u5y18cxJ3UcV4bLItXB1wC8KaDgCjDZrI2JUXHSg?session=0&fife" height="200" width="auto" /><br><br>Прогуляйтесь по рыночной площади, и вопроса о том, что посмотреть в Бремене за 1 день, у вас больше не возникнет. Краткий список расположенных тут увлекательных мест и архитектурных памятников: фонтан Нептуна, Сад гражданства, скульптурная группа Бременские Музыканты, фондовая биржа и торговая палата, готический храм Богоматери, знаменитые улицы Шюттингштрассе и Бётчерштрассе, Позорный столб. Если культурные и исторические достопримечательности Бремена вас не интересуют, отправляйтесь в Бремер Рацкеллер – самый старинный винный погреб не только в городе, но и в стране.]]></description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/upirqabcmrl3bfikou6dbb3cps/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-ED1PAR5DBnOPe-ddOlThANA664soNOXqUFgdHH2V7W1XmaV-2F72x85oytNjdi1OWnlRzSw14LMgNH08RMDyxRHeHUaz9PjEhH0ZYjAMzWN84pVsswCE5o5bMQI8WW1bJ-Gr2ycK5MnEqPFUlFyCW_i7u5y18cxJ3UcV4bLItXB1wC8KaDgCjDZrI2JUXHSg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8071646,53.0758155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bremer Bonbon Manufaktur</name>
+        <description>в этом магазинчике можно посмотреть, как делается разноцветная карамель и снять отменный Boomerang о том, как делают фирменные леденцы.</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            8.8061243,53.0753019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Бременская ратуша</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lb74bglucep3g8m4geehse70dc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HqgK8HjbQ2F4h2avQaP4nivhgaAeP50FhMwspO9fpJtnqbZPQGUPjWVoupT2kVSg5iH3UFE4Q0J_kBFDVLzsnPLU8Epohecx_xDa1i7SGGBuvHBc02dbYh8eVcycCMNwUQIYbUr5HNDTzXjGeFOk3cpr-TxXxEHEekAOAO78Re4_kMkUJlvBf_zODPgB0iQg?session=0&fife" height="200" width="auto" /><br><br>На осмотр этой достопримечательности Бремена следует отправиться хотя бы потому, что она входит в список ЮНЕСКО. Двухэтажное здание, возведенное еще в средние века, является символом города. Оно выполнено в великолепных традициях ренессанса. Если вам повезет, то во время прогулки по роскошным залам ратуши, вы встретитесь с бургомистрами – нередко они выходят поприветствовать гостей и поговорить с ними.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/lb74bglucep3g8m4geehse70dc/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HqgK8HjbQ2F4h2avQaP4nivhgaAeP50FhMwspO9fpJtnqbZPQGUPjWVoupT2kVSg5iH3UFE4Q0J_kBFDVLzsnPLU8Epohecx_xDa1i7SGGBuvHBc02dbYh8eVcycCMNwUQIYbUr5HNDTzXjGeFOk3cpr-TxXxEHEekAOAO78Re4_kMkUJlvBf_zODPgB0iQg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8079321,53.0760221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>улица Бётхерштрассе</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/jfmn1sp8rtm9ev06qo68n9p420/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Gnf9shhIOW4IZBXSygwmRCbXzAP3IQwMquoNGpjAcuztSDNs6YH25Ps_zekrCkylTTVnGgYxRTlm8ntP6BxYzDJBbWhXpQblBEw4v26W0c5Bm7GN6lnhGwEdC_k-z50JjtuuFAFqCcAllEo13uAQKRseHGQ0zeTVd107GrWl0vAw0_RB61BQOwlcdjX6cK5g?session=0&fife" height="200" width="auto" /><br><br>Протяженность данной достопримечательности Бремена составляет сто метров. Всего тут располагается 7 зданий, и каждое из этих домов – архитектурный шедевр в оригинальном стиле «кирпичный экспрессионизм». В качестве примера можно привести коттедж, фасад которого украшен тремя десятками колокольчиков из фарфора. В определенные часы они издают мелодичный звон.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/jfmn1sp8rtm9ev06qo68n9p420/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Gnf9shhIOW4IZBXSygwmRCbXzAP3IQwMquoNGpjAcuztSDNs6YH25Ps_zekrCkylTTVnGgYxRTlm8ntP6BxYzDJBbWhXpQblBEw4v26W0c5Bm7GN6lnhGwEdC_k-z50JjtuuFAFqCcAllEo13uAQKRseHGQ0zeTVd107GrWl0vAw0_RB61BQOwlcdjX6cK5g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.805696,53.0750456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Бременский Роланд</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/jli0kjm9c314l14qtpufs1a158/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E5Pkne6V54o8V8FzIZ-qaxaieBBj5qhEy9MyAXEp7JzrwkUhtweHpIRrGWHZSQv0OPwukLm1h8h9uzF99dw9E0P9af6orn1uYe-xjBVHfOD5drmQPQAsEIHDrKg8RjpE_TT4L6Bkl5Dq_z_436z3tQHNsXjmLHclhnTz-zKWAb9-Mc2AMvYX-EWGu3b6873w?session=0&fife" height="200" width="auto" /><br><br>Эпического рыцаря, обнажившего меч, можно увидеть на рыночной площади. Как мы уже сказали, посетить эту площадь должен каждый турист. Дата возведения старинной статуи – 1404 год.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/jli0kjm9c314l14qtpufs1a158/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-E5Pkne6V54o8V8FzIZ-qaxaieBBj5qhEy9MyAXEp7JzrwkUhtweHpIRrGWHZSQv0OPwukLm1h8h9uzF99dw9E0P9af6orn1uYe-xjBVHfOD5drmQPQAsEIHDrKg8RjpE_TT4L6Bkl5Dq_z_436z3tQHNsXjmLHclhnTz-zKWAb9-Mc2AMvYX-EWGu3b6873w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8073005,53.0758657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Скульптура «Бременские музыканты»</name>
+        <description>Работа бременского скульптора Кристы Баумгертеля. Мы включили эту скульптуру в свой обзор «лучшие достопримечательности Бремена» потому, что по легенде она способна исполнять заветные желания. Возьмите бронзового ослика за обе передние лапы или потрите его нос – и загадывайте все, о чем мечтаете.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            8.8075112,53.0762054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Бременский собор</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ek0j8tn5tj4ien0kva2krj9aqo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EqMkYDfyNtghJfWwMCistZ40WmNXaSS0lmTykfij-L0IwkDN-i3M_nC0P7XvVhrcweYLVzy_q44I9KxuUyhF2NYSylCiQ-3WyNsR7M9PabT_V-3UirAfryOtRdcsNytDVw3IZ-f6uHC99w--k0uTvxxGeujqt5YVbsTZhJjf6d8OwpC5uC81gPQkBrLQHBYqPUHZVKFBqVFZT6FtkaFyrDvMLG2m9hrY941I7TFr2i-YU?session=0&fife" height="200" width="auto" /><br><br>Объект, внесенный в список ЮНЕСКО. Гиды в Бремене рекомендуют непременно посетить его, как минимум, по двум причинам: первая – удобная для туристов точка расположения храма на рыночной площади, вторая – многовековая история этой известной достопримечательности Германии (дата начала строительства здания – 9 век).]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ek0j8tn5tj4ien0kva2krj9aqo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EqMkYDfyNtghJfWwMCistZ40WmNXaSS0lmTykfij-L0IwkDN-i3M_nC0P7XvVhrcweYLVzy_q44I9KxuUyhF2NYSylCiQ-3WyNsR7M9PabT_V-3UirAfryOtRdcsNytDVw3IZ-f6uHC99w--k0uTvxxGeujqt5YVbsTZhJjf6d8OwpC5uC81gPQkBrLQHBYqPUHZVKFBqVFZT6FtkaFyrDvMLG2m9hrY941I7TFr2i-YU?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8090624,53.0755426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universum Bremen</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/cm50hlugiaelmqqkuti4er8nog/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GWHG43adwFzGdnTOhweTLXPSX_iWClleG2-yLlDKQxqwg8IRAFbyUh5HQ19peukfAv_npLvWEH_MYCq4LT0W0N43LKhqtNsmJI2Skc3zyUSjrSTC_K6AQdVU5WE3G8Q0B-6sxp6ORskoZHu3dIckSHdwGVxGPypVDc1-YsuopXbtKf_G9vZqdOgDyo0Tz5Dg?session=0&fife" height="200" width="auto" /><br><br>Что посетить в Бремене взрослым и детям, увлеченным наукой и техникой? Этот огромный центр с более чем 250 интерактивными экспонатами. Вы узнаете (увидите и услышите) о множестве необычных и знаменательных явлений, происходящих в космосе, на нашей планете и даже в человеческом организме. Вам поведают о Теории большого взрыва и о зарождении Земли, о законах физики и математики, о природе возникновения торнадо и землетрясений. Все гости могут принимать личное участие в любом эксперименте. Фотографировать и трогать экспонаты не только можно, но и нужно. Это одна из самых познавательных достопримечательностей города. Здание научного центра имитирует огромного кита.<br><br>Официальный сайт: https://universum-bremen]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/cm50hlugiaelmqqkuti4er8nog/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GWHG43adwFzGdnTOhweTLXPSX_iWClleG2-yLlDKQxqwg8IRAFbyUh5HQ19peukfAv_npLvWEH_MYCq4LT0W0N43LKhqtNsmJI2Skc3zyUSjrSTC_K6AQdVU5WE3G8Q0B-6sxp6ORskoZHu3dIckSHdwGVxGPypVDc1-YsuopXbtKf_G9vZqdOgDyo0Tz5Dg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8449861,53.1067028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Торговая палата Шюттинг
+</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ehj2o0nql2rp03g2lp38snr7f8/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Efb4BXxQHU33Ij9WY_ntpHjwOcXzAlZa1yObBt_4aoEEGMWaLkvBI15EsHGSFK02qef93reOMvitS7BkG5VxWsh0XhE4UqJM-NcVix6smvV1ZyG4cpPXymAe0b7mErTA8DMGqTs0SSvEisFFZe7oi8gZ6GolNNuGotlYKsMkDANw0T7fABK9PwZW0A-deHLg?session=0&fife" height="200" width="auto" /><br><br>На этот раз мы поговорим о том, куда сходить в Бремене любителям архитектуры и гастрономических деликатесов. Здание торговой палаты служит центром купечества до сих пор. Внутри находится, в том числе, музей купеческого сообщества. Дом имеет шикарный портал, роскошную лестницу и современный фасад. Если вы проголодаетесь, то сможете посетить расположенный в подвале палаты исторический ресторан. Отзывы о подающихся тут блюдах самые положительные.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/ehj2o0nql2rp03g2lp38snr7f8/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Efb4BXxQHU33Ij9WY_ntpHjwOcXzAlZa1yObBt_4aoEEGMWaLkvBI15EsHGSFK02qef93reOMvitS7BkG5VxWsh0XhE4UqJM-NcVix6smvV1ZyG4cpPXymAe0b7mErTA8DMGqTs0SSvEisFFZe7oi8gZ6GolNNuGotlYKsMkDANw0T7fABK9PwZW0A-deHLg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8066508,53.0756894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Куранты. «Дом с колокольным звоном»</name>
+        <description>Первый раз перезвон колокольчиков из мейсенского фарфора раздался еще более 80 лет назад. Сейчас вы можете услышать его трижды в день (январь-март) или ежечасно (главное, чтобы ваша поездка или прогулка к дому прошла с 12 часов дня по 18 часов вечера).</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            8.805705,53.0749277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GOP Varieté-Theater Bremen</name>
+        <description>Просторный зал с большим количеством столиков и сценой, освещаемый красным цветом прожекторов, становится местом проведения необычайных театрализованных выступлений. Практически всегда в шоу присутствуют цирковые элементы: участвуют танцоры и иллюзионисты в ярких костюмах, акробаты и воздушные гимнасты. Во время любых номеров зрителям разрешается кушать и пить. Посетить этот театр вам стоит хотя бы потому, что ему удалось добиться международного признания.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            8.7892101,53.0816665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alte Mühle. Мельница</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/bn69cp8vjbmavuv6he9m6b93hs/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EnOiBK3uc_ZiY8M87nelgefVS2MDY7OKKBAPp5EhkZguqM4yXUqu0R0sHKqhOz3_3GjBTCBYwlawlvvyb3UItOUBoAsw42m-oMdNLYHRYhJPLBqL4b9-WgVqy91DP0Z4qQ8t3Fd-KsKWV6tn3slOJ6-qKc9PsMxNzznM1y9Zgcvo-3glrvsjBdIfVrOV2Lrg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/bn69cp8vjbmavuv6he9m6b93hs/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-EnOiBK3uc_ZiY8M87nelgefVS2MDY7OKKBAPp5EhkZguqM4yXUqu0R0sHKqhOz3_3GjBTCBYwlawlvvyb3UItOUBoAsw42m-oMdNLYHRYhJPLBqL4b9-WgVqy91DP0Z4qQ8t3Fd-KsKWV6tn3slOJ6-qKc9PsMxNzznM1y9Zgcvo-3glrvsjBdIfVrOV2Lrg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.8069163,53.080118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Бюргерпарк</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/phpjq7s3ritcdk1ucu12c60lfo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HEe13034_mctqtp02tn57yWiuIFGlCYapzVBN4nUr2u7WCqCR5BxMCR7CvqQasDlAWlidnOCCOAXe9bKebmar5p3U9_hk5BgRS1LFEmlSC1_Q_Mka7hy4o71sPVVrts6JfdCk_x_ncYICs7buVV6VlSldpYcnBtpbDwPa-lXpqTkroTEGtead8ZQjdwqmr_Q?session=0&fife" height="200" width="auto" /><br><br>Посещение этого места рекомендуется тем путешественникам, которые желают расслабиться, спокойно или весело провести время в пределах города. В парке проводятся концерты, шоу, фестивали и прочие развлекательные мероприятия. Площадь зеленого островка составляет свыше двух сотен гектаров. Тут вы сможете попробовать блюда национальной или европейской кухни в местных ресторанчиках, посидеть на лужайке с книгой в руках или покататься на велосипеде по велодорожкам. Другие возможные варианты для отдыха: игра в мини-гольф и посещение небольшого зоопарка. Кстати, арендовать ролики или велосипед можно здесь же.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/phpjq7s3ritcdk1ucu12c60lfo/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-HEe13034_mctqtp02tn57yWiuIFGlCYapzVBN4nUr2u7WCqCR5BxMCR7CvqQasDlAWlidnOCCOAXe9bKebmar5p3U9_hk5BgRS1LFEmlSC1_Q_Mka7hy4o71sPVVrts6JfdCk_x_ncYICs7buVV6VlSldpYcnBtpbDwPa-lXpqTkroTEGtead8ZQjdwqmr_Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.827544,53.0876013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Набережная Шлахте</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/dsth0tjt9c19lhpjgd79ho186o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Fn1ZdKFPCMIlbz-t_alDqc1IK1zHLY7uU1O4eXkkpjKFdOAZ2x2L9j_Hk9HuN-FTbq-w5qf86PAtwuwzruEfa-u7gCsqsLewNdIMcxQDQJ4RxX7X3ZnIPFG0cm1-IebFE7D6KaFW89SP-mUVRvJluXpE8GbIcDyNjykhiPrx98v6cxU4iDaYv4YBYG1ydiUg?session=0&fife" height="200" width="auto" /><br><br>Излюбленное место для прогулок местных жителей и гостей города. На 600 метрах площади вы увидите рестораны и магазины, гигантский пивной сад на 5 тысяч посетителей. Но главными достопримечательностями является все же не это, а здания, построенные в разных архитектурных направлениях – от современного модерна до рококо 17 столетия. Тут же находятся модели всевозможных суден, например, копии фрегата Адмирала Нельсона и парусника 14 столетия Р. Фон Бремена.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/dsth0tjt9c19lhpjgd79ho186o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-Fn1ZdKFPCMIlbz-t_alDqc1IK1zHLY7uU1O4eXkkpjKFdOAZ2x2L9j_Hk9HuN-FTbq-w5qf86PAtwuwzruEfa-u7gCsqsLewNdIMcxQDQJ4RxX7X3ZnIPFG0cm1-IebFE7D6KaFW89SP-mUVRvJluXpE8GbIcDyNjykhiPrx98v6cxU4iDaYv4YBYG1ydiUg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.7991467,53.0782062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Das Viertel</name>
+        <description>Это несколько улиц, где можно найти все: отличные бары, магазины, уличную еду, стрит-арт и прочий движ.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            8.8169101,53.0731967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Бюргерпарк</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/c2cpcq33bmtt4h51oeqo6oc53o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FKsDw80fHWGM4CguIXpinpYkzkU6JXvumfJ6fNK8PDWRhaV_OCMaYyd0rp3P9JBYa1DzGY_7xS8tJ9mbfnUJxJIo_yfsvOD1ZUK8xA--bI1picCHTd0BYjch5-J076LQMbjqM-mJGhMJab-14yqxLmLaVatoRxYi2b77ShJzsZOAo5joUFlNZLDiPcLybsMGPwzTG8cBj20dXynUh1RrPvUJBxNrN260ij9joBm-elS9c?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/c2cpcq33bmtt4h51oeqo6oc53o/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FKsDw80fHWGM4CguIXpinpYkzkU6JXvumfJ6fNK8PDWRhaV_OCMaYyd0rp3P9JBYa1DzGY_7xS8tJ9mbfnUJxJIo_yfsvOD1ZUK8xA--bI1picCHTd0BYjch5-J076LQMbjqM-mJGhMJab-14yqxLmLaVatoRxYi2b77ShJzsZOAo5joUFlNZLDiPcLybsMGPwzTG8cBj20dXynUh1RrPvUJBxNrN260ij9joBm-elS9c?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.827544,53.0876013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaststätte Kleiner Olymp</name>
+        <description>немецкая кухня</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            8.809459,53.0723135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[BAB' MARIA (OMA MARIA). Ein Teller voller Heimat. Die erste traditionelle ukrainische Küche in Bremen. Seit 2019.]]></name>
+        <description>украинская кухня</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            8.8102444,53.0758402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Бременский винный погреб</name>
+        <description>в погребе Ратуши немецкие вина от души дегустировали Вагнер и Штраус, Гейне и Гоголь, Бисмарк и Фихте – подвал считается самым старым винным магазином страны (1693 год!).</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            8.8073733,53.0761132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Paulaner's an der Schlachte]]></name>
+        <description>Классический немецкий ресторан – как ты его себе представляешь. Пиво, сосиски, шницели, шум и гам. И, конечно, разливной Paulaner всех возможных сортов.</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            8.8007825,53.0776302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FARSØ</name>
+        <description>кафе со скандинавским духом: кроме отличного кофе, здесь подают разнообразные завтраки, сморреброды и панкейки. Вечером трансформируется в место с вином.</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            8.8273397,53.0730863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurant Werk</name>
+        <description>обширное меню с интернациональными завтраками</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            8.8253615,53.0731497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bei Lino - Пицца</name>
+        <description>Лучшую пиццу в Бремене ты возьмешь навынос здесь (конечно, внутри есть три столика, но вероятность сесть за них стремится к нулю – всегда занято). Заправляют всем два итальянца – весело, душно и вкусно.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.7956284,53.0678303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SuppKultur</name>
+        <description>Очень простое место, где за € 5 можно получить огромную тарелку наваристого супа, который будет больше похож на гуляш. Каждый день – 3 вида супа, в который ты всегда можешь добавить сосисочку.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.8219455,53.0819448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SuppKultur</name>
+        <description>Очень простое место, где за € 5 можно получить огромную тарелку наваристого супа, который будет больше похож на гуляш. Каждый день – 3 вида супа, в который ты всегда можешь добавить сосисочку.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.8259985,53.0730896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaffeemühle (Mühle Am Wall) - Restaurant, Café, Bistro</name>
+        <description>Да, туристическое, да, дороговатое, но все равно очень атмосферное заведение внутри мельницы. Ланч обойдется в € 9–13, а воскресный бранч обойдется в € 23,50. Зато какой вид на парк с горки!</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.8066909,53.080125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Beck's Bistro]]></name>
+        <description>Бремен – родина Beck’s, а это фирменный ресторанчик пивоварни. Находится в самом центре, так что есть смысл забежать хотя бы на 0,3.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.8068519,53.076048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café Lisboa</name>
+        <description>Маленький уголок Португалии в районе Neustadt. Обязательно попробуй кофе!</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.7953154,53.0676045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lilie - Bremen</name>
+        <description>Это бистро ты найдешь очень легко – ориентируйся на белый дом с зелеными наличниками. Супы, салаты, flammkuchen </description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.80581,53.0936617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bellini</name>
+        <description>Достойное итальянское место с толстым меню – пасты и антипасты, пиццы, вино.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.8255174,53.0728849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurant Luv</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.80199,53.07687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espresso House</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.8057138,53.0768177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaffeeladen Bremen</name>
+        <description>кофе и перекусы</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            8.8205877,53.0728602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City - Café Bremen</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.8046032,53.0781209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Parkhaus</name>
+        <description><![CDATA[до 12 евро<br><br><br>https://www.brepark.de/auto-parken/parkhaeuser/pressehaus]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8040537,53.0768754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* BREPARKhaus Mitte</name>
+        <description><![CDATA[до 12 евро<br>оплата на выезде по карте<br>https://www.brepark.de/auto-parken/parkhaeuser/mitte]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8067216,53.0779501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CONTIPARK Parkhaus Herdentor</name>
+        <description>4-5 евро, но фиговая</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8136745,53.0801839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkhaus Katharinenklosterhof</name>
+        <description><![CDATA[до 12 евро<br>оплата на выезде по карте<br>https://www.brepark.de/auto-parken/parkhaeuser/katharinenklosterhof]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8087976,53.0776368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BREPARKhaus Ostertor/Kulturmeile</name>
+        <description>https://www.brepark.de/auto-parken/parkhaeuser/ostertor-/-kulturmeile</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8153289,53.0706342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DEKRA. Осмотр. Hannoversche Str. 136</name>
+        <description><![CDATA[Umwelt plakette<br><br>c 8 до 18]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8909136,53.049378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KÜS Kfz-Prüfstelle in Bremen | Ingenieur-Büro Dipl-Ing. Walter Lübke</name>
+        <description>c 9 до 12, с 13 до 17.30</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.9613829,53.0420319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Die Prüfstelle GmbH & Co. KG Bremen GTÜ am Weserpark]]></name>
+        <description>c 9 до 17.30</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.9647475,53.0530245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TÜV Rheinland Schaden- und Wertgutachten GmbH Bremen</name>
+        <description>c 9 до 17</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            8.8810542,53.0609256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Германия</name>
+      <Placemark>
+        <name>Моншау</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0mlpeoupm64of9mhd79m91hsc0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GSQlvi9hqLnl8rAan6ILRR5vtKB0hxP-eQ11nWyUNR4V2kK5KQjN1yycNrePjQUhHnSMnFhfce9LrlgzpuQ8A0636qkOmutPX-_ynfXdRSys9ZaJWyaBxt_mx5L4t00NSQjIELJkyyShK0BQxv_AquGeHq4eyqxyq-lM8Sh6iNBSMh1ildo_mFGnHVO0AmBLk?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/0mlpeoupm64of9mhd79m91hsc0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GSQlvi9hqLnl8rAan6ILRR5vtKB0hxP-eQ11nWyUNR4V2kK5KQjN1yycNrePjQUhHnSMnFhfce9LrlgzpuQ8A0636qkOmutPX-_ynfXdRSys9ZaJWyaBxt_mx5L4t00NSQjIELJkyyShK0BQxv_AquGeHq4eyqxyq-lM8Sh6iNBSMh1ildo_mFGnHVO0AmBLk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.2426261,50.5563349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Оснабрюк</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/hdam41tlvepsf66qp6u4o73djg/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GtRkRPAWXYijaKcKwAeZcm-kXaOKc6Y0mS7jntGlncIGEDu0i-HmqqfOSoZaAprZ8akTnUlHuG_6c0DjLSrULnEVYy42wc-VU46eHHS22cQ6k81d9pdnCi8rwnA7US4fF3Q-FESnQNnGRLKD7_splVkfLxsT7zVzgFj7WKAc8Xdgm8aNT6SI5Udp1ZGAaMCQ?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/hdam41tlvepsf66qp6u4o73djg/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GtRkRPAWXYijaKcKwAeZcm-kXaOKc6Y0mS7jntGlncIGEDu0i-HmqqfOSoZaAprZ8akTnUlHuG_6c0DjLSrULnEVYy42wc-VU46eHHS22cQ6k81d9pdnCi8rwnA7US4fF3Q-FESnQNnGRLKD7_splVkfLxsT7zVzgFj7WKAc8Xdgm8aNT6SI5Udp1ZGAaMCQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            8.0471788,52.2799112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мюнстер</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/f6h0afjqrq6fet4b9olvpn3lp0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FDerU1G7MrecCA4iAZuOiG6ZQXZdr6oLSopIwiOIi0Iau03MRVSRT0bySG6lMOJxyG_55n4ggeuELtYh42FunIL_-Hjva8Ty62BqyBXIR-WOW4iiO3cIxL_kv0uX-hxPuigcr2KdAwMHU_0c75ZlXTG4XSqsF3tkGvUQtvF4z27uj9JggaxSRd2TWY3CpY_DY?session=0&fife" height="200" width="auto" /><br><br>https://germanyask.com/myunster-germaniya-luchshie-dostoprimechatelnosti-i-otzyvy-turistov.html]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/f6h0afjqrq6fet4b9olvpn3lp0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FDerU1G7MrecCA4iAZuOiG6ZQXZdr6oLSopIwiOIi0Iau03MRVSRT0bySG6lMOJxyG_55n4ggeuELtYh42FunIL_-Hjva8Ty62BqyBXIR-WOW4iiO3cIxL_kv0uX-hxPuigcr2KdAwMHU_0c75ZlXTG4XSqsF3tkGvUQtvF4z27uj9JggaxSRd2TWY3CpY_DY?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            7.6261347,51.9606649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Любек</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/8evhgjd54gujj07sc290sl1lk0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FnU90WQrAlOY4SMyl6kytyJ4GIZULPvsnsmAxC0B9C1V4ZoQ65vwl0Pw4-OIVoescqElp-GSFTBTTzqjsmF9u0SVCgnXpwzlaTXckpyu3gqxaqCm3KF4k7JaAvNUDl43M-KoY4kjcVWXz8CWqaGGH6PTeiG7wPrFqCToS475kBNxWOB-4lLWqKGNGjdu6vRQ?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/8evhgjd54gujj07sc290sl1lk0/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-FnU90WQrAlOY4SMyl6kytyJ4GIZULPvsnsmAxC0B9C1V4ZoQ65vwl0Pw4-OIVoescqElp-GSFTBTTzqjsmF9u0SVCgnXpwzlaTXckpyu3gqxaqCm3KF4k7JaAvNUDl43M-KoY4kjcVWXz8CWqaGGH6PTeiG7wPrFqCToS475kBNxWOB-4lLWqKGNGjdu6vRQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            10.6865593,53.8654673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Целле</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/go6jeqt9sjgb8hlpqppq96u988/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GnBCfsEJTZDBhE-iFAuW8rPE7cl_RD7vF6VwqIVsOasl3HEdQL6Ci17db-wrt207mFOuZoJReCCZxUsqdbXuQxBExvWZu5-7e9NBTqha6dqQCH00D-OalmzUc2H-5HXvpduX_SGbm8cplbd_YJbJiyD-4VCjUcWAQc6-b_H6Wh1QLJlK3CQ7si4DngNqgnrK4gHI6UanpFGqQo60a5zqkoHlCkEewNq4tT6stKW8tdoK8?session=0&fife" height="200" width="auto" /><br><br>много фаеферховых домов]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/66qou5f0guv9j1o05mn0q1e13c/go6jeqt9sjgb8hlpqppq96u988/1688014890250/LcZwlZ8ACRlrS42qnp_TAUjqDE2QI5k-/07980462017585400618/5ACtvi-GnBCfsEJTZDBhE-iFAuW8rPE7cl_RD7vF6VwqIVsOasl3HEdQL6Ci17db-wrt207mFOuZoJReCCZxUsqdbXuQxBExvWZu5-7e9NBTqha6dqQCH00D-OalmzUc2H-5HXvpduX_SGbm8cplbd_YJbJiyD-4VCjUcWAQc6-b_H6Wh1QLJlK3CQ7si4DngNqgnrK4gHI6UanpFGqQo60a5zqkoHlCkEewNq4tT6stKW8tdoK8?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            10.080865,52.6263797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Кведлинбург</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.141448,51.7920562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Люнебург</name>
+        <styleUrl>#icon-1502-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4160637,53.2478704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Шверин</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.4012499,53.6355022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ганновер</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.7337036,52.3820402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Кельн</name>
+        <description>https://tripplanet.ru/dostoprimechatelnosti-kelna/</description>
+        <styleUrl>#icon-1502-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            6.9604469,50.9358209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Франкфурт</name>
+        <styleUrl>#icon-1502-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.6856995,50.1111083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Эксерские камни</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.917478,51.869026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Мюнстер</name>
+      <Placemark>
+        <name>Prinzipalmarkt</name>
+        <description>торговая улица</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.6282566,51.9623663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мюнстерский собор</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6257716,51.9629806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Церковь Святого Ламберта</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.628904,51.9629349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Историческая ратуша Мюнстера</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6282264,51.9615423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мюленхоф. деревня-музей</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.598204,51.949819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Либфрауэнкирхе</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6228355,51.9641789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Эрбдростенхоф</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.63216,51.9608854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ботанический сад Вестфелишен Вильхельмс-Университет Мюнстер</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6097481,51.9637858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art Museum Pablo Picasso</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.62643,51.960084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Набережная Kreativkai. много кафе</name>
+        <description>https://www.google.com/maps/@51.9515152,7.6426721,3a,75y,41.24h,95.66t/data=!3m8!1e1!3m6!1sAF1QipNHLnaunwYCiAebwRvmhaHTDdFlXHWa8-MEwBU5!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNHLnaunwYCiAebwRvmhaHTDdFlXHWa8-MEwBU5%3Dw203-h100-k-no-pi-0-ya8.742346-ro-0-fo100!7i10240!8i5120?entry=ttu</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            7.6382879,51.9515299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1648 CAFÉ | LOUNGE | GASTRONOMIE</name>
+        <description>Красивый вид на город</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            7.629704,51.9614978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Altes Gasthaus Leve</name>
+        <description>немецкая кухня</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            7.633292,51.961678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HOCHSTAPLER. бургеры</name>
+        <styleUrl>#icon-1899-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6389483,51.95183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaststätte Pinkus Müller</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6215769,51.9655611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gasthaus Stuhlmacher</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6282344,51.9618319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café Med GmbH. Итальянская</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.643277,51.9520328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doppellecker. Кафе-автобус</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.6395277,51.9518479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Parkhaus Bahnhofstraße</name>
+        <description><![CDATA[2.5 евро первый час, 2 - последующие. максимум - 18<br><br>оплата картой<br><br>https://www.stadt-muenster.de/tiefbauamt/parkleitsystem/parkhaeuser/detailansicht/parkhaus/14]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.6329801,51.95558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Parkhaus Münster Arcades</name>
+        <description><![CDATA[2.5 евро первый час, 2 - последующие. максимум - 18<br><br>оплата картой<br><br>https://www.stadt-muenster.de/tiefbauamt/parkleitsystem/parkhaeuser/detailansicht/parkhaus/9]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.6262734,51.9596675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Parkhaus Stubengasse</name>
+        <description><![CDATA[2.5 евро первый час, 2 - последующие. максимум - 18<br><br>оплата картой<br><br>https://www.stadt-muenster.de/tiefbauamt/parkleitsystem/parkhaeuser/detailansicht/parkhaus/11]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.6301485,51.9598412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkhaus Stadthaus 3</name>
+        <description><![CDATA[1ый час бесплатно, каждый следующий - 1 евро. Наличные<br><br>https://www.stadt-muenster.de/tiefbauamt/parkleitsystem/parkhaeuser/detailansicht/parkhaus/16]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.641406,51.949337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkhaus Cineplex</name>
+        <description><![CDATA[1 евро в час. только наличные<br><br>https://www.stadt-muenster.de/tiefbauamt/parkleitsystem/parkhaeuser/detailansicht/parkhaus/15]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.6362615,51.9496878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hörster Platz car park</name>
+        <description><![CDATA[первый час - 2.5 евро, последующие полчаса - 1 евро. максимум 2 - евро<br><br>https://www.stadt-muenster.de/tiefbauamt/parkleitsystem/parkhaeuser/detailansicht/parkhaus/2]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.6320152,51.964403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Гамбург</name>
+      <Placemark>
+        <name>TÜV Hanse Service-Center Hamburg-West</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.9804287,53.6010432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nesselstraße 16b</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.0174645,53.6197009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TÜV NORD Station Hamburg</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.9373078,53.5738017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Люнебург</name>
+      <Placemark>
+        <name>Люнебургская водонапорная башня</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4125652,53.246824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ратуша Люнебурга</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4075734,53.2502648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Старый кран</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4134396,53.25123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Площадь Am Sande</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.410096,53.2475186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Церковь Святого Иоанна</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4128873,53.2478376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Церковь Святого Михаила</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4006932,53.249635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Старая аптека городского совета</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4087308,53.248898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bei der St.Nicolaikirche</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4101383,53.2518775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>* Parkhaus Stadtmitte</name>
+        <description><![CDATA[1.80 час, 12 евро максимум<br><br>наличные или карта ЕС (что это?)<br><br>https://parkhaus-stadtmitte-lueneburg.de/]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            10.4132927,53.2467497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkplatz Zentral Kalandstraße Lüneburg. Открытая парковка</name>
+        <description><![CDATA[1.50 евро за час<br><br>15 евро максимум<br><br>оплата только картой ЕС(что это?)]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            10.4117279,53.2468916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Q-Park City Parkhaus</name>
+        <description><![CDATA[2.20 за час, максимум 15<br><br>оплата картой есть<br><br>https://www.q-park.de/de-de/staedte/l%c3%bcneburg/city-parkhaus/]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            10.404251,53.2481569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TO HUUS Gastwirtschaft Lüneburg</name>
+        <description>немецкая, бургеры</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.4062559,53.2486139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffee Shop Lüneburg</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.4112768,53.2503891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bell & Beans. кафе]]></name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.409431,53.2482543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Бонн</name>
+      <Placemark>
+        <name>Königswinter Bahnhof</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.193362,50.678547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drachenfelsbahn Mittelstation - am Schloss Drachenburg</name>
+        <description>Станция фуникулера по центру, кпроход к замку, можно выйти, потом поехать дальше по тому же билету</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.2079217,50.6690611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Драхенфельсбан</name>
+        <description>Фуникулер, начало подъема</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.1983275,50.6744415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drachenfelsbahn Bergstation</name>
+        <description>Фуникулер, конец подъема, смотровая</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.2109184,50.6646305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonn Hbf</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.097128,50.732008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Замок Драхенбург</name>
+        <styleUrl>#icon-1502-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.206374,50.668653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Драхенфельс</name>
+        <description>смотровая</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.2102715,50.6650948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Старая ратуша</name>
+        <description>была построена в XVIII веке и является главным украшением рыночной площади. Именно здесь перед горожанами выступал первый президент ФРГ – Теодор Хейс. Тут же бывали такие известные политические лидеры, как Елизавета II, Шарль де Голль, Джон Кеннеди, Михаил Горбачев и даже Барак Обама.</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.1029035,50.7351116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Market Fountain Фонтан-обелиск</name>
+        <description>памятник архитектуры возвели горожане в знак благодарности курфюсту Максу Фридриху в 1550 году. Фонтан был разрушен в 1689 году при обстреле площади, а в 1777-м его восстановили. С тех пор он цел и невредим радует глаз горожан и путешественников. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.1021444,50.7353625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Католическая церковь Иисуса Христа Bonngasse 8</name>
+        <description>заметная церковь XVII века рядом с домом Бетховена. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.1011943,50.7361136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Главпочтамт и памятник Бетховену Münsterpl. 11</name>
+        <description>две важные достопримечательности, которые также находятся на площади перед собором. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.0993694,50.7344844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Боннский кафедральный собор</name>
+        <description>главный собор города, который сейчас находится на реконструкции. Собор посвящен святому Кассию и святому Флорентию – небесным покровителям Бонна. И именно на площади перед этим собором ежегодно проходит Рождественская ярмарка с глинтвейном, каруселями, пряниками, деревянными игрушками и колбасками. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            7.0994043,50.7335831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Башня Штернтор Vivatsgasse 10</name>
+        <description>это кусочек древности посреди современного Бонна. В XIII веке эти ворота служили оборонительным сооружением для старой части города. </description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <Point>
+          <coordinates>
+            7.0986246,50.7353861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дом Бетховена</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.1012007,50.7369154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Красивая улица Blossom Street</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.0957021,50.7384329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Католическая церковь святых Йоханнеса и Петруса Kölnstraße 31A</name>
+        <description>величественная готическая церковь XIX века. К слову, рядом с сооружением находится кофейня Sunnysu, где очень советуем попробовать мороженое в вафле или другие десерты. </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            7.0996692,50.7388245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Япанишер Гартен</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.1362699,50.7131043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Небоскреб Posttower</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.130014,50.7158336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Красивые улицы Херштрассе</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.0915201,50.7387013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eiscafe Alcedo</name>
+        <description>Кафе мороженое, мороженое в вафле, возможно вместо Sunnysu</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            7.1004533,50.7392496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HARIBO Store</name>
+        <description>Первый магазин Haribo (Neutor 3) в Германии, где можно насладиться десятками видами мармелада с различными вкусами от лакрицы до веганских суфле. Также тут продают забавную сувенирную продукцию с мишками Гамми. Идеальное место для походов с детьми и для подарков сладкоежкам. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            7.101097,50.7327548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clemens-August-Str. Трамвай 66</name>
+        <description>Трамвай в Бонн. 26 минут</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.189155,50.6769258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonn Universität/Markt</name>
+        <description>Трамвай 66</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.1022509,50.7323757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brauhaus Bönnsch</name>
+        <description>немецкая кухня</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            7.097364,50.736781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA VIE est Bonngout</name>
+        <description><![CDATA[норм меню https://www.la-vie-bonn.de/speisekarte<br><br>завтраки, супы, много разного]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            7.1020002,50.7348923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pirkan Café - Bonn</name>
+        <description>кафе, яйца бенедикт, блины</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            7.101692,50.7342678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lighthouse Café</name>
+        <description>норм перекусы</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            7.1008933,50.7363793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Кельн</name>
+      <Placemark>
+        <name>Classik Hotel Antonius</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9598211,50.9482939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Кёльнский собор</name>
+        <description>Он первый по количеству посетителей не только в Северном Рейне, но и во всей Германии. Легенда гласит, что архитектор продал душу дьяволу с условием, что возведет строение за трое суток. Но уже на второй день архитектор понял, что это невозможно, и отменил сделку. С того времени, собор все никак не могут достроить до конца. Но здесь все же можно подняться на смотровую площадку: за 2 € открывается отличный вид на весь Кельн. Вход внутрь самого собора бесплатный. </description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.9582814,50.9412784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rhein-Seilbahn. Канантная дорога</name>
+        <description>В Кельне есть единственная в Европе канатная дорога (Riehler Straße, 180) через речку. Отсюда можно рассмотреть город с необычного ракурса. Она находится прямо около городского зоопарка и, пересекая Рейн, ты попадаешь на противоположный берег в район аквапарка. Работает канатная дорога с апреля по октябрь.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            6.9735688,50.9571275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мост Гогенцоллернов</name>
+        <description>Если ты будешь ехать в город на поезде, то скорее всего подъедешь к вокзалу через Рейн по мосту. Это будет мост Гогенцоллернов, который еще называют «‎мостом любви»‎. Интересно, что местные считают его и Кельнский Собор единственными достопримечательностями города. Изначально мост выглядел совсем иначе и был назван в честь собора Dombrücke, но в 1945 его взорвала немецкая армия при отступлении. После реставрации мост приобрел нынешний вид, и здесь снова потекла жизнь.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            6.9657835,50.9414357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей духов</name>
+        <description>12.00 в среду</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.9580821,50.937721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Market</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9600005,50.9384952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей Шоколада и колесо обозрения</name>
+        <description>самое настоящее царство для сладкоежек. Сюда стоит заглянуть хотя бы ради шоколадного фонтана, в который можно окунуть вафельку. Входной билет – € 12,50. Обрати внимание, что гардероб в музее тоже платный – € 1. Зато здесь можно самому создать шоколадку с любимыми вкусами и добавками – надо только оплатить это удовольствие и сладость приготовят прямо при тебе. Кроме того, в музее есть кофейня, где предлагают такое количество тортов, от которого разбегаются глаза. Совет: возьми бутылочку шоколадного пива, кусок ягодного торта, сядь за столик у панорамного окна с видом на Рейн и покайфуй. </description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.964398,50.9318922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ханенторбург. Башни-ворота</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9401731,50.9363339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[KölnSKY - Eventlocation - Tagung - Hochzeiten - Firmenfeier - Events - Weihnachtsfeier & mehr]]></name>
+        <description>билет на крышу 5 евро</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            6.972177,50.9401497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Красивые виды</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9650197,50.9292006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Хое штрассе. Шоппинг</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9563045,50.9371066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TK Maxx</name>
+        <description>Знаменитый T.K.Maxx – мeстo палoмничeства всeх местных жителей. Здесь можно купить вещи и обувь известных брендов в несколько раз дешевле. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            6.9479326,50.936723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Шильдергассе</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9525662,50.9364177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frittenwerk Köln</name>
+        <description><![CDATA[картоха с начинками<br><br>всегда очереди, но потраченное в них время того стоит: разные виды картофеля и уйма начинок, а плюс к этому – огромные сытные порции! ]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.940569,50.9384679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meister Bock</name>
+        <description>тебя ждут традиционные немецкие колбаски (около 6 видов) и хлеб. Просто и вкусно. </description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9586002,50.9432159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ruff´s Burger</name>
+        <description><![CDATA[+ мокрый бургер?<br><br>Если захотелось классического бургера с фри, то тебе в Beef Brothers (Aachener Straße, 12). За € 6 здесь можно взять бургер, говорят, они волшебные!]]></description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.937147,50.936557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pommes Imperium</name>
+        <description>еще один фастфуд, который нельзя пройти мимо. Здесь подают братвурст (традиционную немецкую сосиску из свинины) и фри с соусом за € 6. </description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9601137,50.9366909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mangal Doner Restaurant</name>
+        <description>И классика – Mangal Döner (Bonner Straße, 1). По независимой оценке местных жителей здесь лучший донер в Кельне. Красиво, вкусно, инстраграмно.</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9598973,50.920733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakery Merzenich on Wallrafplatz</name>
+        <description><![CDATA[6.30 открытие<br><br>Начать свой день предлагаем в булочной Merzenich Backereien (Wallrafpl, 4). Она находится в 5 минутах ходьбы от центрального железнодорожного вокзала и Кельнского собора. Найти заведения этой сети можно по всему городу по большим желтым вывескам и аромату свежей выпечки. Цены достаточно низкие, а выбор огромный – идеальное сочетание.<br>Обязательно попробуй брецель – этот крендель является неофициальным символом Германии. Идет как закуска к пиву и как десерт к кофе. ]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9566058,50.9403261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakery Merzenich am Neumarkt</name>
+        <description><![CDATA[Начать свой день предлагаем в булочной Merzenich Backereien (Wallrafpl, 4). Она находится в 5 минутах ходьбы от центрального железнодорожного вокзала и Кельнского собора. Найти заведения этой сети можно по всему городу по большим желтым вывескам и аромату свежей выпечки. Цены достаточно низкие, а выбор огромный – идеальное сочетание.<br>Обязательно попробуй брецель – этот крендель является неофициальным символом Германии. Идет как закуска к пиву и как десерт к кофе. ]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9481431,50.9365094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Merzenich auf der Breite Straße</name>
+        <description><![CDATA[Начать свой день предлагаем в булочной Merzenich Backereien (Wallrafpl, 4). Она находится в 5 минутах ходьбы от центрального железнодорожного вокзала и Кельнского собора. Найти заведения этой сети можно по всему городу по большим желтым вывескам и аромату свежей выпечки. Цены достаточно низкие, а выбор огромный – идеальное сочетание.<br>Обязательно попробуй брецель – этот крендель является неофициальным символом Германии. Идет как закуска к пиву и как десерт к кофе. ]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9521192,50.9391342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>THE COFFEE GANG</name>
+        <description>Местные говорят, что в The Coffee Gang (Hohenstaufenring, 19) варят лучший кофе в городе. На заметку: здесь есть и веганские позиции.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9408111,50.9302528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metzgerei Schmitz</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9361368,50.9366105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Die Mehlwerkstatt</name>
+        <description>Zeit für Brot (Venloer Straße., 202) – лучшая булочная в Кельне. Ее особенность в том, что эта пекарня открывается уже в 8 утра (что редкость). За € 5 можно выбрать большой кофе и булочку или сендвич. </description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9253019,50.9463844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brauhaus FRÜH am Dom. Пивоварня</name>
+        <description>В Кельне имеются 24 пивоварни! Больше чем в любом другом городе мира. Особенность этого города еще и в том, что в одном ресторане подают только один сорт пива, а всего их здесь 12. Если хочется попробовать все 12, то нужно посетить 12 ресторанов. Ближе к вечеру советуем заглянуть в ресторан-пивоварню Früh (Am Hof, 12–18), которая впечатляет масштабами. Главное, не заблудиться! Место находится в бывшем здании театра, которое построили еще в римские времена из камней, оставшихся от городского собора. Пиво здесь всего одной марки Früh и варят его здесь же в подвале. </description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9569441,50.9398732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peters Brauhaus. Пивоварня</name>
+        <description>Peters Brauhaus (Mühlengasse, 1) – еще одна пивная с традиционными немецкими блюдами. Рулька невероятная – рекомендуем. Цены в заведении средние, на € 20 – и наешься, и выпьешь.</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9605835,50.9392415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brauhaus Sion</name>
+        <description>заведение, которое удивляет огромными порциями. Здесь варят пиво аж с 1318 года. А еще это место славится большим выбором колбасок. От заказа до подачи блюда проходит не более 10 минут.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9593234,50.939428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haxenhaus</name>
+        <description>Если хочешь пойти в ресторан и насладиться более изысканной атмосферой, то тебе в Haxenhaus zum Rheingarten (Frankenwerft, 19). Только бронируй столик заранее. Очень классное место для ужина большой компанией. Ресторан располагается на набережной Рейна, имеет два входа и два этажа. Здесь можно вкусно поесть и oтведать oдин метр Кёльша.</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9624501,50.9376085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAUEL 1883. пекарня</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9659794,50.926325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>THE COFFICE HARBOUR</name>
+        <description>кофе и перекусы</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9663583,50.9258291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>omo Kaffee</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.966877,50.9252233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaiser Konstantin - Kölsches Brauhaus</name>
+        <description>осьминог</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9688185,50.937202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante-Pizzeria Il Valentino. Итальянская кухня</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.953944,50.937053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MaXimA - Feines Polnisches Restaurant</name>
+        <description>польская кухня</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9441536,50.9350604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Chango</name>
+        <description>аргентинская кухня</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9598756,50.9367217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Funkhaus Cafe-Bar-Restaurant</name>
+        <description>Завтраки. С 8.30. Есть места на улице. Яйца-пашот 15.90 евро</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9557696,50.9403505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café Pistazie. Турецкие завтраки</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9557629,50.9428108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lint No 7</name>
+        <description>Гранолы, круасаны (перекус). С 8.00</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.960992,50.9381164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jlöcklich Barista Café</name>
+        <description>Кафе. Панини и сладкая выпечка. Есть места на улице, место довольно красивое, хоть и дорога рядом</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9563331,50.9491145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaffeebar Presswerk Köln</name>
+        <description>кофе и какой-то упрощенный синабон</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9592965,50.9477792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[McDonald's]]></name>
+        <description>с 5 утра до 4 ночи</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9598996,50.9429105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>My Curry Wurst</name>
+        <description>нарезанная сосиса с кетчупом</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9600411,50.9377729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fassbender. Завтраки с 10 до 12</name>
+        <description><![CDATA[завтраки 12-15 евро<br>https://www.fassbender.de/fassbender/wp-content/uploads/Fassbender_Speisekarte_Ko%CC%88Mi_SuMa.pdf<br><br>много сладкой выпечки<br><br>есть немного мест на улице, возле дороги (с не-супер-видом). Внутри норм]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9569012,50.9378261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Supasalad Gürzenich</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9582773,50.9357775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L´Osteria Köln Zollhafen</name>
+        <description>Итальянская кухня</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9641191,50.9312384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MALOA Poke Bowl</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9406556,50.9374854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matrosengrill (curry wurst)</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9634231,50.9324819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brauerei zur Malzmühle. Пивоварня</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9606653,50.9346438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bowltastic. Боулы</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9562032,50.933946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[blooming coffee roastery & coffee-bar]]></name>
+        <description>кофе, круассан, че-то типа синабона</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9523102,50.9341136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isabella Glutenfreie Pâtisserie</name>
+        <description>французская кондитерская</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9415849,50.9380072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cloud Kitchen. Бранчи</name>
+        <description>с 9 до 18. ресторан поздниз завтраков</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9400262,50.9368128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Seiberts - Classic Bar & Liquid Kitchen]]></name>
+        <description>Коктейль бар</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.940667,50.938829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cinnamood Köln. Разные синабоны</name>
+        <description>французская кондитерская</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            6.9438815,50.9386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kaffee & Kuchen]]></name>
+        <description>бейгели и панини. немного завтраков есть</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9367942,50.9413437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>gutebohne ESPRESSOBAR</name>
+        <description>кофе, панини (и паштейш?)</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9408563,50.9424669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café Elefant</name>
+        <description>завтраки и блины</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.9597578,50.9538409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Grissini Restaurant & Terrasse]]></name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.9687978,50.9406832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Дюссельдорф</name>
+      <Placemark>
+        <name>Rheinuferpromenade. набережная</name>
+        <description>Длина пешеходной зоны составляет два километра. Прогуливаясь, можно увидеть такие значимые памятники, как: Бургплац, замковая башня и городская ратуша.</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.7701272,51.2259549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neuer Zollhof. Новая таможня</name>
+        <description>Комплекс зданий, возведенный на месте бывшей таможни в пределах Дюссельдорфской гавани. Новая Таможня – это современная постройка 1998 года в стиле деконструктивизма, придуманная Ф. Гери — автором знаменитого «Танцующего дома» в Праге. Комплекс состоит из трех частей белого, зеркального и красного цветов. Каждая часть представляет собой отдельный ассиметричный комплекс с искривленными линиями.</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.758201,51.216469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rhine Tower</name>
+        <description>с 10.00 до 00.00. Билет 10 евро</description>
+        <styleUrl>#icon-1502-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.7616801,51.2179423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Улица Альтштадт. Пивоварни </name>
+        <description>На улице Альтштадт располагается свыше 250 пивоварен, огромное количество традиционных кабачков и пивных залов. Чаще всего здесь пьют местное тёмное пиво альтбир, которое подают в маленьких (200 мл) стаканах из тонкого стекла.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            6.7726508,51.2286604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Площадь Бургплац</name>
+        <description>Площадь на берегу реки Рейн, центр Старого Города. История этого места началась вместе с историей Дюссельдорфа в XIII столетии. Центральной постройкой площади является Замковая башня (Шлосстурм), где размещается Музей судоходства и навигации. Это сооружение представляет собой остатки сгоревшего в XIX столетии замка герцога Бергского. На верхнем этаже Шлосстурм работает панорамный ресторан.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            6.7716855,51.2267264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Старая ратуша</name>
+        <description>Здание городских властей XVI столетия в типичном стиле поздней «немецкой готики» с элементами Ренессанса и рококо. Самый старый фасад ратуши выходит окнами на площадь Марктплац, из всех остальных частей постройки он единственный сохранился почти в первоначальном виде. Напротив строения находится монумент в честь курфюста Иоганна Вильгельма Пфальцского – большого ценителя искусства, немало сделавшего для Дюссельдорфа.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            6.7714997,51.2259968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Королевская аллея</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.779266,51.2220574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kunstsammlung. Музей современного искусства</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7739904,51.2166377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Искусство в туннеле</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7667764,51.219906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Марктплац</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7719536,51.2256403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Главный вокзал Дюссельдорфа</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7927281,51.220115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Düsseldorf Hbf. Трамваи 709 708 706</name>
+        <description><![CDATA[до Rhein Tower<br><br>EinzelTicket (Single ticket, билет на одну поездку). Действителен для одной поездки от места покупки и в пределах указанных зон, допускает пересадки. Билет для короткой поездки (не более 1,5 км или 3-4 остановок) действителен в течение 30 минут, для зоны А - 90 минут, для зоны B - 2 часа, для зоны C - 3 часа, для зоны D - 4 часа.]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            6.79237,51.22069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D-Landtag/Kniebrücke. Трамвай от вокзала</name>
+        <description>Тр</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            6.767054,51.2182624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tonhalle/Ehrenhof. U76 U75 U77 до вокзала</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7742829,51.2316576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D-Heinrich-Heine-Allee U. U78 U79 U75 до вокзала</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7770183,51.2253825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D-Maxplatz. Bus 726 до трамвая</name>
+        <description>редко ходит, примерно раз в полчаса</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            6.7718113,51.2233158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D-Graf-Adolf-Platz U. Трамвай до вокзала 709</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7763098,51.2189724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uerige. Пивоварня</name>
+        <styleUrl>#icon-1899-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7722509,51.2249992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zum Schlüssel. Пивоварня</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.774435,51.226086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Пивоварня Лисичка</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7752499,51.2295321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Schumacher Altbier-Manufaktur</name>
+        <description>немецкая кухня</description>
+        <styleUrl>#icon-1899-757575</styleUrl>
+        <Point>
+          <coordinates>
+            6.7750394,51.2263288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brauerei Zum Schiffchen, Düsseldorf. Пивоварня</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7721528,51.2237402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bazzar Caffè</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7768064,51.2246818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bistro Zicke</name>
+        <styleUrl>#icon-1899-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7694444,51.2225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
