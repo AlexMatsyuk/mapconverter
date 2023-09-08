@@ -2,7 +2,7 @@ namespace MapsConverter;
 
 public class Converter
 {
-    private const string ResultFile = "D:\\Docs\\google-organic\\result.kml";
+    private const string ResultFile = "D:\\travel\\mapconverter\\corfu-converted.kml";
     private const string SourceFile = "source.kml";
 
     public static void Convert()
@@ -35,6 +35,22 @@ public class Converter
         // магазин
         googleKml = googleKml.Replace("<styleUrl>#icon-1899-FF5252-nodesc</styleUrl>", "<styleUrl>#placemark-purple</styleUrl>");
         googleKml = googleKml.Replace("<styleUrl>#icon-1899-FF5252</styleUrl>", "<styleUrl>#placemark-purple</styleUrl>");
+
+        // отличный пляж
+        googleKml = googleKml.Replace("<styleUrl>#icon-1502-F57C00-nodesc</styleUrl>", "<styleUrl>#placemark-deeporange</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1502-F57C00</styleUrl>", "<styleUrl>#placemark-deeporange</styleUrl>");
+
+        // хороший пляж
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-F57C00-nodesc</styleUrl>", "<styleUrl>#placemark-orange</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-F57C00</styleUrl>", "<styleUrl>#placemark-orange</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-FBC02-nodesc</styleUrl>", "<styleUrl>#placemark-orange</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-FBC02</styleUrl>", "<styleUrl>#placemark-orange</styleUrl>");
+
+        // пляж
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-FBC02D-nodesc</styleUrl>", "<styleUrl>#placemark-yellow</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-FBC02D</styleUrl>", "<styleUrl>#placemark-yellow</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-BDBDBD-nodesc</styleUrl>", "<styleUrl>#placemark-yellow</styleUrl>");
+        googleKml = googleKml.Replace("<styleUrl>#icon-1899-BDBDBD</styleUrl>", "<styleUrl>#placemark-yellow</styleUrl>");
 
 
         googleKml = googleKml.Replace("<br><br>", " ");
