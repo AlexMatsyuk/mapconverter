@@ -2,8 +2,8 @@ namespace MapsConverter;
 
 public class Converter
 {
-    private const string ResultFile = "D:\\travel\\mapconverter\\corfu-converted.kml";
-    private const string SourceFile = "source.kml";
+    private const string SourceFile = "D:\\travel\\mapconverter\\palanga.kml";
+    private const string ResultFile = "D:\\travel\\mapconverter\\palanga-converted.kml";
 
     public static void Convert()
     {
@@ -53,8 +53,8 @@ public class Converter
         googleKml = googleKml.Replace("<styleUrl>#icon-1899-BDBDBD</styleUrl>", "<styleUrl>#placemark-yellow</styleUrl>");
 
 
-        googleKml = googleKml.Replace("<br><br>", " ");
-        googleKml = googleKml.Replace("<br>", " ");
+        googleKml = googleKml.Replace("<br><br>", "\n");
+        googleKml = googleKml.Replace("<br>", "\n");
 
         Save(ResultFile, googleKml);
     }
