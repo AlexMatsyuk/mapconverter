@@ -107,8 +107,9 @@ public static class BookingPage
         review.Country = Regex.Replace(country, "^.*?\n", string.Empty);
         
         review.Room = locator.Locator("//span[@data-testid='review-room-name']").InnerTextAsync().Result;
-        
-        review.Title = locator.Locator("//h4").InnerTextAsync().Result.Trim();
+
+        var titleLocator = locator.Locator("//h4"); 
+        review.Title = titleLocator.CountAsync().Result > 0 ? titleLocator.InnerTextAsync().Result.Trim() : string.Empty;
 
         var prosLocator = locator.Locator("//div[@data-testid='review-positive-text']"); 
         review.Pros = prosLocator.CountAsync().Result > 0 ? prosLocator.InnerTextAsync().Result.Trim() : string.Empty;
